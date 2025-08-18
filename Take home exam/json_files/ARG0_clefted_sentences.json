@@ -1,0 +1,994 @@
+[
+    {
+        "Capability": "Identifying ARG0 in clefted sentences",
+        "Sentences": [
+            {
+                "sentence": "It was John who fixed the car.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "John",
+                    "who",
+                    "fixed",
+                    "the",
+                    "car"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "John marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Mary that wrote the report.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Mary",
+                    "that",
+                    "wrote",
+                    "the",
+                    "report"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Mary marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the manager who approved the proposal.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "manager",
+                    "who",
+                    "approved",
+                    "the",
+                    "proposal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "manager marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Tom who painted the house.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Tom",
+                    "who",
+                    "painted",
+                    "the",
+                    "house"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Tom marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Alice that designed the website.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Alice",
+                    "that",
+                    "designed",
+                    "the",
+                    "website"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Alice marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the teacher who explained the concept.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "teacher",
+                    "who",
+                    "explained",
+                    "the",
+                    "concept"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "teacher marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Sara who baked the cake.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Sara",
+                    "who",
+                    "baked",
+                    "the",
+                    "cake"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Sara marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the scientist who discovered the formula.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "scientist",
+                    "who",
+                    "discovered",
+                    "the",
+                    "formula"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "scientist marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the author who wrote the book.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "author",
+                    "who",
+                    "wrote",
+                    "the",
+                    "book"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "author marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was David that called you earlier.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "David",
+                    "that",
+                    "called",
+                    "you",
+                    "earlier"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "David marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the lawyer who defended the client.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "lawyer",
+                    "who",
+                    "defended",
+                    "the",
+                    "client"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "lawyer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Emma who solved the puzzle.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Emma",
+                    "who",
+                    "solved",
+                    "the",
+                    "puzzle"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Emma marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the musician that composed the song.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "musician",
+                    "that",
+                    "composed",
+                    "the",
+                    "song"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "musician marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the chef who cooked the meal.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "chef",
+                    "who",
+                    "cooked",
+                    "the",
+                    "meal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "chef marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Lisa that organized the event.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Lisa",
+                    "that",
+                    "organized",
+                    "the",
+                    "event"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Lisa marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the engineer who built the bridge.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "engineer",
+                    "who",
+                    "built",
+                    "the",
+                    "bridge"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "engineer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Michael who found the lost keys.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Michael",
+                    "who",
+                    "found",
+                    "the",
+                    "lost",
+                    "keys"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "Michael marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the artist who painted the mural.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "artist",
+                    "who",
+                    "painted",
+                    "the",
+                    "mural"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "artist marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Daniel that carried the boxes.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Daniel",
+                    "that",
+                    "carried",
+                    "the",
+                    "boxes"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Daniel marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the nurse who helped the patient.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "nurse",
+                    "who",
+                    "helped",
+                    "the",
+                    "patient"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "nurse marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the student that answered the question.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "student",
+                    "that",
+                    "answered",
+                    "the",
+                    "question"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "student marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the programmer who fixed the bug.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "programmer",
+                    "who",
+                    "fixed",
+                    "the",
+                    "bug"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "programmer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the director that made the decision.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "director",
+                    "that",
+                    "made",
+                    "the",
+                    "decision"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "director marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Julia who closed the deal.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Julia",
+                    "who",
+                    "closed",
+                    "the",
+                    "deal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Julia marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the officer who arrested the suspect.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "officer",
+                    "who",
+                    "arrested",
+                    "the",
+                    "suspect"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "officer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the entrepreneur who started the company.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "entrepreneur",
+                    "who",
+                    "started",
+                    "the",
+                    "company"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "entrepreneur marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the farmer that harvested the crops.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "farmer",
+                    "that",
+                    "harvested",
+                    "the",
+                    "crops"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "farmer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the coach who trained the team.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "coach",
+                    "who",
+                    "trained",
+                    "the",
+                    "team"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "coach marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the actor who performed the scene.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "actor",
+                    "who",
+                    "performed",
+                    "the",
+                    "scene"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "actor marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Olivia who completed the assignment.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Olivia",
+                    "who",
+                    "completed",
+                    "the",
+                    "assignment"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Olivia marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            }
+        ]
+    }
+]

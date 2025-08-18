@@ -1,0 +1,886 @@
+[
+    {
+        "Capability": "Detecting ARG1 in passive constructions with implied arguments",
+        "Sentences": [
+            {
+                "sentence": "The book was written in 1985.",
+                "sentence_tok": [
+                    "The",
+                    "book",
+                    "was",
+                    "written",
+                    "in",
+                    "1985"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "book marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A new policy was introduced last week.",
+                "sentence_tok": [
+                    "A",
+                    "new",
+                    "policy",
+                    "was",
+                    "introduced",
+                    "last",
+                    "week"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "policy marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The cake was baked this morning.",
+                "sentence_tok": [
+                    "The",
+                    "cake",
+                    "was",
+                    "baked",
+                    "this",
+                    "morning"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "cake marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The project was completed on time.",
+                "sentence_tok": [
+                    "The",
+                    "project",
+                    "was",
+                    "completed",
+                    "on",
+                    "time"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "project marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A mistake was discovered in the report.",
+                "sentence_tok": [
+                    "A",
+                    "mistake",
+                    "was",
+                    "discovered",
+                    "in",
+                    "the",
+                    "report"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "mistake marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The experiment was conducted carefully.",
+                "sentence_tok": [
+                    "The",
+                    "experiment",
+                    "was",
+                    "conducted",
+                    "carefully"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "experiment marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The house was sold for a high price.",
+                "sentence_tok": [
+                    "The",
+                    "house",
+                    "was",
+                    "sold",
+                    "for",
+                    "a",
+                    "high",
+                    "price"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "house marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The message was delivered yesterday.",
+                "sentence_tok": [
+                    "The",
+                    "message",
+                    "was",
+                    "delivered",
+                    "yesterday"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "message marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The artwork was stolen from the gallery.",
+                "sentence_tok": [
+                    "The",
+                    "artwork",
+                    "was",
+                    "stolen",
+                    "from",
+                    "the",
+                    "gallery"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "artwork marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The bridge was repaired last month.",
+                "sentence_tok": [
+                    "The",
+                    "bridge",
+                    "was",
+                    "repaired",
+                    "last",
+                    "month"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "bridge marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The results were published in a journal.",
+                "sentence_tok": [
+                    "The",
+                    "results",
+                    "were",
+                    "published",
+                    "in",
+                    "a",
+                    "journal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "results marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The package was shipped this morning.",
+                "sentence_tok": [
+                    "The",
+                    "package",
+                    "was",
+                    "shipped",
+                    "this",
+                    "morning"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "package marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The documents were signed at the office.",
+                "sentence_tok": [
+                    "The",
+                    "documents",
+                    "were",
+                    "signed",
+                    "at",
+                    "the",
+                    "office"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "documents marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The invitation was sent last night.",
+                "sentence_tok": [
+                    "The",
+                    "invitation",
+                    "was",
+                    "sent",
+                    "last",
+                    "night"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "invitation marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The problem was solved efficiently.",
+                "sentence_tok": [
+                    "The",
+                    "problem",
+                    "was",
+                    "solved",
+                    "efficiently"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "problem marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The road was blocked due to an accident.",
+                "sentence_tok": [
+                    "The",
+                    "road",
+                    "was",
+                    "blocked",
+                    "due",
+                    "to",
+                    "an",
+                    "accident"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "road marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A new stadium was built in the city.",
+                "sentence_tok": [
+                    "A",
+                    "new",
+                    "stadium",
+                    "was",
+                    "built",
+                    "in",
+                    "the",
+                    "city"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "stadium marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The flowers were planted in the garden.",
+                "sentence_tok": [
+                    "The",
+                    "flowers",
+                    "were",
+                    "planted",
+                    "in",
+                    "the",
+                    "garden"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "flowers marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The window was broken during the storm.",
+                "sentence_tok": [
+                    "The",
+                    "window",
+                    "was",
+                    "broken",
+                    "during",
+                    "the",
+                    "storm"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "window marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A decision was reached after the meeting.",
+                "sentence_tok": [
+                    "A",
+                    "decision",
+                    "was",
+                    "reached",
+                    "after",
+                    "the",
+                    "meeting"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "decision marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The report was submitted to the committee.",
+                "sentence_tok": [
+                    "The",
+                    "report",
+                    "was",
+                    "submitted",
+                    "to",
+                    "the",
+                    "committee"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "report marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The movie was released worldwide.",
+                "sentence_tok": [
+                    "The",
+                    "movie",
+                    "was",
+                    "released",
+                    "worldwide"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "movie marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The homework was completed before the deadline.",
+                "sentence_tok": [
+                    "The",
+                    "homework",
+                    "was",
+                    "completed",
+                    "before",
+                    "the",
+                    "deadline"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "homework marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The error was corrected in the final version.",
+                "sentence_tok": [
+                    "The",
+                    "error",
+                    "was",
+                    "corrected",
+                    "in",
+                    "the",
+                    "final",
+                    "version"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "error marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A complaint was filed against the company.",
+                "sentence_tok": [
+                    "A",
+                    "complaint",
+                    "was",
+                    "filed",
+                    "against",
+                    "the",
+                    "company"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "complaint marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The room was cleaned thoroughly.",
+                "sentence_tok": [
+                    "The",
+                    "room",
+                    "was",
+                    "cleaned",
+                    "thoroughly"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "room marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The painting was restored carefully.",
+                "sentence_tok": [
+                    "The",
+                    "painting",
+                    "was",
+                    "restored",
+                    "carefully"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "painting marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The contract was signed in a hurry.",
+                "sentence_tok": [
+                    "The",
+                    "contract",
+                    "was",
+                    "signed",
+                    "in",
+                    "a",
+                    "hurry"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "contract marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The test was taken yesterday.",
+                "sentence_tok": [
+                    "The",
+                    "test",
+                    "was",
+                    "taken",
+                    "yesterday"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "test marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The car was washed this morning.",
+                "sentence_tok": [
+                    "The",
+                    "car",
+                    "was",
+                    "washed",
+                    "this",
+                    "morning"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "car marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            }
+        ]
+    }
+]

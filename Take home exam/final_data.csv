@@ -1,0 +1,1506 @@
+Sentence_idx,Capability,Token,LogReg Prediction,BERT Prediction,Gold Label
+1,Identifying ARG0 in clefted sentences,It,O,O,_
+1,Identifying ARG0 in clefted sentences,was,O,O,_
+1,Identifying ARG0 in clefted sentences,John,O,ARG0,ARG0
+1,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+1,Identifying ARG0 in clefted sentences,fixed,O,O,_
+1,Identifying ARG0 in clefted sentences,the,O,O,_
+1,Identifying ARG0 in clefted sentences,car,O,ARG1,_
+2,Identifying ARG0 in clefted sentences,It,O,O,_
+2,Identifying ARG0 in clefted sentences,was,O,O,_
+2,Identifying ARG0 in clefted sentences,Mary,O,ARG0,ARG0
+2,Identifying ARG0 in clefted sentences,that,O,R-ARG0,_
+2,Identifying ARG0 in clefted sentences,wrote,O,O,_
+2,Identifying ARG0 in clefted sentences,the,O,O,_
+2,Identifying ARG0 in clefted sentences,report,O,ARG1,_
+3,Identifying ARG0 in clefted sentences,It,O,O,_
+3,Identifying ARG0 in clefted sentences,was,O,O,_
+3,Identifying ARG0 in clefted sentences,the,O,O,_
+3,Identifying ARG0 in clefted sentences,manager,O,ARG0,ARG0
+3,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+3,Identifying ARG0 in clefted sentences,approved,O,O,_
+3,Identifying ARG0 in clefted sentences,the,O,O,_
+3,Identifying ARG0 in clefted sentences,proposal,O,ARG1,_
+4,Identifying ARG0 in clefted sentences,It,O,O,_
+4,Identifying ARG0 in clefted sentences,was,O,O,_
+4,Identifying ARG0 in clefted sentences,Tom,O,ARG0,ARG0
+4,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+4,Identifying ARG0 in clefted sentences,painted,O,O,_
+4,Identifying ARG0 in clefted sentences,the,O,O,_
+4,Identifying ARG0 in clefted sentences,house,O,ARG1,_
+5,Identifying ARG0 in clefted sentences,It,O,O,_
+5,Identifying ARG0 in clefted sentences,was,O,O,_
+5,Identifying ARG0 in clefted sentences,Alice,O,ARG0,ARG0
+5,Identifying ARG0 in clefted sentences,that,O,R-ARG0,_
+5,Identifying ARG0 in clefted sentences,designed,O,O,_
+5,Identifying ARG0 in clefted sentences,the,O,O,_
+5,Identifying ARG0 in clefted sentences,website,O,ARG1,_
+6,Identifying ARG0 in clefted sentences,It,O,O,_
+6,Identifying ARG0 in clefted sentences,was,O,O,_
+6,Identifying ARG0 in clefted sentences,the,O,O,_
+6,Identifying ARG0 in clefted sentences,teacher,O,ARG0,ARG0
+6,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+6,Identifying ARG0 in clefted sentences,explained,O,O,_
+6,Identifying ARG0 in clefted sentences,the,O,O,_
+6,Identifying ARG0 in clefted sentences,concept,O,ARG1,_
+7,Identifying ARG0 in clefted sentences,It,O,O,_
+7,Identifying ARG0 in clefted sentences,was,O,O,_
+7,Identifying ARG0 in clefted sentences,Sara,O,ARG0,ARG0
+7,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+7,Identifying ARG0 in clefted sentences,baked,O,O,_
+7,Identifying ARG0 in clefted sentences,the,O,O,_
+7,Identifying ARG0 in clefted sentences,cake,O,ARG1,_
+8,Identifying ARG0 in clefted sentences,It,O,O,_
+8,Identifying ARG0 in clefted sentences,was,O,O,_
+8,Identifying ARG0 in clefted sentences,the,O,O,_
+8,Identifying ARG0 in clefted sentences,scientist,O,ARG0,ARG0
+8,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+8,Identifying ARG0 in clefted sentences,discovered,O,O,_
+8,Identifying ARG0 in clefted sentences,the,O,O,_
+8,Identifying ARG0 in clefted sentences,formula,O,ARG1,_
+9,Identifying ARG0 in clefted sentences,It,O,O,_
+9,Identifying ARG0 in clefted sentences,was,O,O,_
+9,Identifying ARG0 in clefted sentences,the,O,O,_
+9,Identifying ARG0 in clefted sentences,author,O,ARG0,ARG0
+9,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+9,Identifying ARG0 in clefted sentences,wrote,O,O,_
+9,Identifying ARG0 in clefted sentences,the,O,O,_
+9,Identifying ARG0 in clefted sentences,book,O,ARG1,_
+10,Identifying ARG0 in clefted sentences,It,O,O,_
+10,Identifying ARG0 in clefted sentences,was,O,O,_
+10,Identifying ARG0 in clefted sentences,David,O,ARG0,ARG0
+10,Identifying ARG0 in clefted sentences,that,ARG0,R-ARG0,_
+10,Identifying ARG0 in clefted sentences,called,O,O,_
+10,Identifying ARG0 in clefted sentences,you,ARG1,ARG1,_
+10,Identifying ARG0 in clefted sentences,earlier,O,ARGM-TMP,_
+11,Identifying ARG0 in clefted sentences,It,O,O,_
+11,Identifying ARG0 in clefted sentences,was,O,O,_
+11,Identifying ARG0 in clefted sentences,the,O,O,_
+11,Identifying ARG0 in clefted sentences,lawyer,O,ARG0,ARG0
+11,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+11,Identifying ARG0 in clefted sentences,defended,O,O,_
+11,Identifying ARG0 in clefted sentences,the,O,O,_
+11,Identifying ARG0 in clefted sentences,client,O,ARG1,_
+12,Identifying ARG0 in clefted sentences,It,O,O,_
+12,Identifying ARG0 in clefted sentences,was,O,O,_
+12,Identifying ARG0 in clefted sentences,Emma,O,ARG0,ARG0
+12,Identifying ARG0 in clefted sentences,who,ARG0,R-ARG0,_
+12,Identifying ARG0 in clefted sentences,solved,O,O,_
+12,Identifying ARG0 in clefted sentences,the,O,O,_
+12,Identifying ARG0 in clefted sentences,puzzle,ARG1,ARG1,_
+13,Identifying ARG0 in clefted sentences,It,O,O,_
+13,Identifying ARG0 in clefted sentences,was,O,O,_
+13,Identifying ARG0 in clefted sentences,the,O,O,_
+13,Identifying ARG0 in clefted sentences,musician,O,ARG0,ARG0
+13,Identifying ARG0 in clefted sentences,that,O,R-ARG0,_
+13,Identifying ARG0 in clefted sentences,composed,O,O,_
+13,Identifying ARG0 in clefted sentences,the,O,O,_
+13,Identifying ARG0 in clefted sentences,song,O,ARG1,_
+14,Identifying ARG0 in clefted sentences,It,O,O,_
+14,Identifying ARG0 in clefted sentences,was,O,O,_
+14,Identifying ARG0 in clefted sentences,the,O,O,_
+14,Identifying ARG0 in clefted sentences,chef,O,ARG0,ARG0
+14,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+14,Identifying ARG0 in clefted sentences,cooked,O,O,_
+14,Identifying ARG0 in clefted sentences,the,O,O,_
+14,Identifying ARG0 in clefted sentences,meal,O,ARG1,_
+15,Identifying ARG0 in clefted sentences,It,O,O,_
+15,Identifying ARG0 in clefted sentences,was,O,O,_
+15,Identifying ARG0 in clefted sentences,Lisa,O,ARG0,ARG0
+15,Identifying ARG0 in clefted sentences,that,O,R-ARG0,_
+15,Identifying ARG0 in clefted sentences,organized,O,O,_
+15,Identifying ARG0 in clefted sentences,the,O,O,_
+15,Identifying ARG0 in clefted sentences,event,O,ARG1,_
+16,Identifying ARG0 in clefted sentences,It,O,O,_
+16,Identifying ARG0 in clefted sentences,was,O,O,_
+16,Identifying ARG0 in clefted sentences,the,O,O,_
+16,Identifying ARG0 in clefted sentences,engineer,O,ARG0,ARG0
+16,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+16,Identifying ARG0 in clefted sentences,built,O,O,_
+16,Identifying ARG0 in clefted sentences,the,O,O,_
+16,Identifying ARG0 in clefted sentences,bridge,O,ARG1,_
+17,Identifying ARG0 in clefted sentences,It,O,O,_
+17,Identifying ARG0 in clefted sentences,was,O,O,_
+17,Identifying ARG0 in clefted sentences,Michael,O,ARG0,ARG0
+17,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+17,Identifying ARG0 in clefted sentences,found,O,O,_
+17,Identifying ARG0 in clefted sentences,the,O,O,_
+17,Identifying ARG0 in clefted sentences,lost,O,O,_
+17,Identifying ARG0 in clefted sentences,keys,O,ARG1,_
+18,Identifying ARG0 in clefted sentences,It,O,O,_
+18,Identifying ARG0 in clefted sentences,was,O,O,_
+18,Identifying ARG0 in clefted sentences,the,O,O,_
+18,Identifying ARG0 in clefted sentences,artist,O,ARG0,ARG0
+18,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+18,Identifying ARG0 in clefted sentences,painted,O,O,_
+18,Identifying ARG0 in clefted sentences,the,O,O,_
+18,Identifying ARG0 in clefted sentences,mural,O,ARG1,_
+19,Identifying ARG0 in clefted sentences,It,O,O,_
+19,Identifying ARG0 in clefted sentences,was,O,O,_
+19,Identifying ARG0 in clefted sentences,Daniel,O,ARG0,ARG0
+19,Identifying ARG0 in clefted sentences,that,O,R-ARG0,_
+19,Identifying ARG0 in clefted sentences,carried,O,O,_
+19,Identifying ARG0 in clefted sentences,the,O,O,_
+19,Identifying ARG0 in clefted sentences,boxes,O,ARG1,_
+20,Identifying ARG0 in clefted sentences,It,O,O,_
+20,Identifying ARG0 in clefted sentences,was,O,O,_
+20,Identifying ARG0 in clefted sentences,the,O,O,_
+20,Identifying ARG0 in clefted sentences,nurse,O,ARG0,ARG0
+20,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+20,Identifying ARG0 in clefted sentences,helped,O,O,_
+20,Identifying ARG0 in clefted sentences,the,O,O,_
+20,Identifying ARG0 in clefted sentences,patient,O,ARG2,_
+21,Identifying ARG0 in clefted sentences,It,O,O,_
+21,Identifying ARG0 in clefted sentences,was,O,O,_
+21,Identifying ARG0 in clefted sentences,the,O,O,_
+21,Identifying ARG0 in clefted sentences,student,O,ARG0,ARG0
+21,Identifying ARG0 in clefted sentences,that,O,R-ARG0,_
+21,Identifying ARG0 in clefted sentences,answered,O,O,_
+21,Identifying ARG0 in clefted sentences,the,O,O,_
+21,Identifying ARG0 in clefted sentences,question,O,ARG1,_
+22,Identifying ARG0 in clefted sentences,It,O,O,_
+22,Identifying ARG0 in clefted sentences,was,O,O,_
+22,Identifying ARG0 in clefted sentences,the,O,O,_
+22,Identifying ARG0 in clefted sentences,programmer,O,ARG0,ARG0
+22,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+22,Identifying ARG0 in clefted sentences,fixed,O,O,_
+22,Identifying ARG0 in clefted sentences,the,O,O,_
+22,Identifying ARG0 in clefted sentences,bug,O,ARG1,_
+23,Identifying ARG0 in clefted sentences,It,O,O,_
+23,Identifying ARG0 in clefted sentences,was,O,O,_
+23,Identifying ARG0 in clefted sentences,the,O,O,_
+23,Identifying ARG0 in clefted sentences,director,ARG0,O,ARG0
+23,Identifying ARG0 in clefted sentences,that,R-ARG0,O,_
+23,Identifying ARG0 in clefted sentences,made,O,O,_
+23,Identifying ARG0 in clefted sentences,the,O,O,_
+23,Identifying ARG0 in clefted sentences,decision,O,ARGM-PRR,_
+24,Identifying ARG0 in clefted sentences,It,O,O,_
+24,Identifying ARG0 in clefted sentences,was,O,O,_
+24,Identifying ARG0 in clefted sentences,Julia,O,ARG0,ARG0
+24,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+24,Identifying ARG0 in clefted sentences,closed,O,O,_
+24,Identifying ARG0 in clefted sentences,the,O,O,_
+24,Identifying ARG0 in clefted sentences,deal,O,ARG1,_
+25,Identifying ARG0 in clefted sentences,It,O,O,_
+25,Identifying ARG0 in clefted sentences,was,O,O,_
+25,Identifying ARG0 in clefted sentences,the,O,O,_
+25,Identifying ARG0 in clefted sentences,officer,O,ARG0,ARG0
+25,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+25,Identifying ARG0 in clefted sentences,arrested,O,O,_
+25,Identifying ARG0 in clefted sentences,the,O,O,_
+25,Identifying ARG0 in clefted sentences,suspect,O,ARG1,_
+26,Identifying ARG0 in clefted sentences,It,O,O,_
+26,Identifying ARG0 in clefted sentences,was,O,O,_
+26,Identifying ARG0 in clefted sentences,the,O,O,_
+26,Identifying ARG0 in clefted sentences,entrepreneur,O,ARG0,ARG0
+26,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+26,Identifying ARG0 in clefted sentences,started,O,O,_
+26,Identifying ARG0 in clefted sentences,the,O,O,_
+26,Identifying ARG0 in clefted sentences,company,O,ARG1,_
+27,Identifying ARG0 in clefted sentences,It,O,O,_
+27,Identifying ARG0 in clefted sentences,was,O,O,_
+27,Identifying ARG0 in clefted sentences,the,O,O,_
+27,Identifying ARG0 in clefted sentences,farmer,O,ARG0,ARG0
+27,Identifying ARG0 in clefted sentences,that,O,R-ARG0,_
+27,Identifying ARG0 in clefted sentences,harvested,O,O,_
+27,Identifying ARG0 in clefted sentences,the,O,O,_
+27,Identifying ARG0 in clefted sentences,crops,O,ARG1,_
+28,Identifying ARG0 in clefted sentences,It,O,O,_
+28,Identifying ARG0 in clefted sentences,was,O,O,_
+28,Identifying ARG0 in clefted sentences,the,O,O,_
+28,Identifying ARG0 in clefted sentences,coach,O,ARG0,ARG0
+28,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+28,Identifying ARG0 in clefted sentences,trained,O,O,_
+28,Identifying ARG0 in clefted sentences,the,O,O,_
+28,Identifying ARG0 in clefted sentences,team,O,ARG1,_
+29,Identifying ARG0 in clefted sentences,It,O,O,_
+29,Identifying ARG0 in clefted sentences,was,O,O,_
+29,Identifying ARG0 in clefted sentences,the,O,O,_
+29,Identifying ARG0 in clefted sentences,actor,O,ARG0,ARG0
+29,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+29,Identifying ARG0 in clefted sentences,performed,O,O,_
+29,Identifying ARG0 in clefted sentences,the,O,O,_
+29,Identifying ARG0 in clefted sentences,scene,O,ARG1,_
+30,Identifying ARG0 in clefted sentences,It,O,O,_
+30,Identifying ARG0 in clefted sentences,was,O,O,_
+30,Identifying ARG0 in clefted sentences,Olivia,O,ARG0,ARG0
+30,Identifying ARG0 in clefted sentences,who,O,R-ARG0,_
+30,Identifying ARG0 in clefted sentences,completed,O,O,_
+30,Identifying ARG0 in clefted sentences,the,O,O,_
+30,Identifying ARG0 in clefted sentences,assignment,O,ARG1,_
+31,Identifying ARG1 in sentences with dative alternations,She,ARG0,ARG0,_
+31,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,book,ARG1,ARG1,_
+31,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,him,ARG2,ARG2,ARG1
+31,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,She,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,him,O,O,ARG1
+31,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,book,O,O,_
+31,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,They,ARG0,ARG0,_
+32,Identifying ARG1 in sentences with dative alternations,sent,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,package,ARG1,ARG1,_
+32,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,their,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,friend,ARG2,ARG2,ARG1
+32,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,They,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,sent,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,their,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,friend,O,O,ARG1
+32,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,package,O,O,_
+32,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,He,ARG0,ARG0,_
+33,Identifying ARG1 in sentences with dative alternations,showed,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,painting,ARG1,ARG1,_
+33,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,professor,O,ARG2,ARG1
+33,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,showed,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,professor,O,O,ARG1
+33,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,painting,O,O,_
+33,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,I,ARG0,ARG0,_
+34,Identifying ARG1 in sentences with dative alternations,wrote,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,letter,O,ARG1,_
+34,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,my,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,sister,O,O,ARG1
+34,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,I,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,wrote,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,my,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,sister,O,O,ARG1
+34,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,letter,O,O,_
+34,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,She,ARG0,ARG0,_
+35,Identifying ARG1 in sentences with dative alternations,handed,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,keys,O,ARG1,_
+35,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,officer,O,ARG2,ARG1
+35,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,She,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,handed,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,officer,O,O,ARG1
+35,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,keys,O,O,_
+35,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,He,ARG0,ARG0,_
+36,Identifying ARG1 in sentences with dative alternations,brought,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,some,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,food,ARG1,ARG1,_
+36,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,neighbor,O,ARG2,ARG1
+36,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,brought,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,neighbor,O,O,ARG1
+36,Identifying ARG1 in sentences with dative alternations,some,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,food,O,O,_
+36,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,They,ARG0,ARG0,_
+37,Identifying ARG1 in sentences with dative alternations,passed,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,salt,ARG1,ARG1,_
+37,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,me,O,ARG2,ARG1
+37,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,They,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,passed,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,me,O,O,ARG1
+37,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,salt,O,O,_
+37,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,We,ARG0,ARG0,_
+38,Identifying ARG1 in sentences with dative alternations,offered,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,job,ARG1,ARG1,_
+38,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,her,O,ARG2,ARG1
+38,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,We,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,offered,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,her,O,O,ARG1
+38,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,job,O,O,_
+38,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,teacher,O,ARG0,_
+39,Identifying ARG1 in sentences with dative alternations,assigned,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,homework,O,ARG1,_
+39,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,students,O,ARG2,ARG1
+39,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,teacher,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,assigned,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,students,O,O,ARG1
+39,Identifying ARG1 in sentences with dative alternations,homework,O,O,_
+39,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,He,O,ARG0,_
+40,Identifying ARG1 in sentences with dative alternations,lent,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,car,O,ARG1,_
+40,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,brother,O,ARG2,ARG1
+40,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,lent,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,brother,O,O,ARG1
+40,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,car,O,O,_
+40,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,She,ARG0,O,_
+41,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,some,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,advice,ARG1,ARGM-PRR,_
+41,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,colleague,O,O,ARG1
+41,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,She,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,colleague,O,O,ARG1
+41,Identifying ARG1 in sentences with dative alternations,some,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,advice,O,O,_
+41,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,They,ARG0,ARG0,_
+42,Identifying ARG1 in sentences with dative alternations,sold,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,bicycle,ARG1,ARG1,_
+42,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,their,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,cousin,O,ARG2,ARG1
+42,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,They,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,sold,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,their,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,cousin,O,O,ARG1
+42,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,bicycle,O,O,_
+42,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,He,ARG0,ARG0,_
+43,Identifying ARG1 in sentences with dative alternations,told,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,story,ARG2,ARG1,_
+43,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,children,O,ARG2,ARG1
+43,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,told,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,children,O,O,ARG1
+43,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,story,O,O,_
+43,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,She,ARG0,ARG0,_
+44,Identifying ARG1 in sentences with dative alternations,promised,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,gift,O,ARG1,_
+44,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,son,O,ARG2,ARG1
+44,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,She,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,promised,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,son,O,O,ARG1
+44,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,gift,O,O,_
+44,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,We,O,ARG0,_
+45,Identifying ARG1 in sentences with dative alternations,mailed,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,letter,ARG1,ARG1,_
+45,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,our,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,friend,O,ARG2,ARG1
+45,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,We,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,mailed,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,our,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,friend,O,O,ARG1
+45,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,letter,O,O,_
+45,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,chef,ARG0,ARG0,_
+46,Identifying ARG1 in sentences with dative alternations,served,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,meal,O,ARG1,_
+46,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,guests,O,ARG2,ARG1
+46,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,chef,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,served,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,guests,O,O,ARG1
+46,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,meal,O,O,_
+46,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,He,ARG0,ARG0,_
+47,Identifying ARG1 in sentences with dative alternations,threw,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,ball,ARG1,ARG1,_
+47,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,teammate,ARG2,ARG2,ARG1
+47,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,threw,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,teammate,O,O,ARG1
+47,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,ball,O,O,_
+47,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,They,O,ARG0,_
+48,Identifying ARG1 in sentences with dative alternations,awarded,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,prize,ARG1,ARG1,_
+48,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,winner,O,ARG2,ARG1
+48,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,They,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,awarded,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,winner,O,O,ARG1
+48,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,prize,O,O,_
+48,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,librarian,ARG0,ARG0,_
+49,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,book,ARG1,ARG1,_
+49,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,student,O,ARG2,ARG1
+49,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,librarian,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,student,O,O,ARG1
+49,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,book,O,O,_
+49,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,She,ARG0,ARG0,_
+50,Identifying ARG1 in sentences with dative alternations,offered,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,some,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,tea,ARG1,ARG1,_
+50,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,guest,O,ARG2,ARG1
+50,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,She,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,offered,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,guest,O,O,ARG1
+50,Identifying ARG1 in sentences with dative alternations,some,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,tea,O,O,_
+50,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,company,ARG0,ARG0,_
+51,Identifying ARG1 in sentences with dative alternations,sent,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,refund,ARG1,ARG1,_
+51,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,customer,ARG2,ARG2,ARG1
+51,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,company,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,sent,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,customer,O,O,ARG1
+51,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,refund,O,O,_
+51,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,He,ARG0,ARG0,_
+52,Identifying ARG1 in sentences with dative alternations,handed,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,note,O,ARG1,_
+52,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,teacher,O,ARG2,ARG1
+52,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,handed,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,teacher,O,O,ARG1
+52,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,note,O,O,_
+52,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,We,ARG0,ARG0,_
+53,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,directions,ARG1,ARG1,_
+53,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,tourists,O,O,ARG1
+53,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,We,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,gave,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,tourists,O,O,ARG1
+53,Identifying ARG1 in sentences with dative alternations,directions,O,O,_
+53,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,She,ARG0,ARG0,_
+54,Identifying ARG1 in sentences with dative alternations,forwarded,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,email,ARG1,ARG1,_
+54,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,boss,O,ARG2,ARG1
+54,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,She,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,forwarded,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,her,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,boss,O,O,ARG1
+54,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,email,O,O,_
+54,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,They,ARG0,ARG0,_
+55,Identifying ARG1 in sentences with dative alternations,paid,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,money,ARG1,ARG1,_
+55,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,vendor,O,ARG2,ARG1
+55,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,They,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,paid,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,vendor,O,O,ARG1
+55,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,money,O,O,_
+55,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,He,ARG0,ARG0,_
+56,Identifying ARG1 in sentences with dative alternations,showed,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,new,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,phone,ARG1,ARG1,_
+56,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,friends,ARGM-LOC,ARG2,ARG1
+56,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,showed,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,friends,O,O,ARG1
+56,Identifying ARG1 in sentences with dative alternations,his,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,new,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,phone,O,O,_
+56,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,She,O,ARG0,_
+57,Identifying ARG1 in sentences with dative alternations,taught,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,lesson,O,ARG1,_
+57,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,students,O,ARG2,ARG1
+57,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,She,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,taught,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,students,O,O,ARG1
+57,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,lesson,O,O,_
+57,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,He,ARG0,ARG0,_
+58,Identifying ARG1 in sentences with dative alternations,read,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,book,ARG1,ARG1,_
+58,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,children,O,ARG2,ARG1
+58,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,He,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,read,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,children,O,O,ARG1
+58,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,book,O,O,_
+58,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,They,ARG0,ARG0,_
+59,Identifying ARG1 in sentences with dative alternations,delivered,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,package,O,ARG1,_
+59,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,client,O,ARG2,ARG1
+59,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,They,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,delivered,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,client,O,O,ARG1
+59,Identifying ARG1 in sentences with dative alternations,a,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,package,O,O,_
+59,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,host,ARG0,ARG0,_
+60,Identifying ARG1 in sentences with dative alternations,served,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,coffee,ARG1,ARG1,_
+60,Identifying ARG1 in sentences with dative alternations,to,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,guests,O,ARG2,ARG1
+60,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,The,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,host,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,served,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,the,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,guests,O,O,ARG1
+60,Identifying ARG1 in sentences with dative alternations,coffee,O,O,_
+60,Identifying ARG1 in sentences with dative alternations,.,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,She,ARG0,ARG0,_
+61,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,book,ARG1,ARG1,ARG2
+61,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,him,ARG2,ARG2,_
+61,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,She,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,him,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+61,Identifying ARG2 in sentences with dative alternations,book,O,O,ARG2
+61,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,They,ARG0,ARG0,_
+62,Identifying ARG2 in sentences with dative alternations,sent,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,package,ARG1,ARG1,ARG2
+62,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,their,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,friend,ARG2,ARG2,_
+62,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,They,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,sent,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,their,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,friend,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+62,Identifying ARG2 in sentences with dative alternations,package,O,O,ARG2
+62,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,He,ARG0,ARG0,_
+63,Identifying ARG2 in sentences with dative alternations,showed,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,painting,ARG1,ARG1,ARG2
+63,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,professor,O,ARG2,_
+63,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,showed,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,professor,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+63,Identifying ARG2 in sentences with dative alternations,painting,O,O,ARG2
+63,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,I,ARG0,ARG0,_
+64,Identifying ARG2 in sentences with dative alternations,wrote,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,letter,O,ARG1,ARG2
+64,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,my,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,sister,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,I,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,wrote,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,my,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,sister,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+64,Identifying ARG2 in sentences with dative alternations,letter,O,O,ARG2
+64,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,She,ARG0,ARG0,_
+65,Identifying ARG2 in sentences with dative alternations,handed,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,keys,O,ARG1,ARG2
+65,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,officer,O,ARG2,_
+65,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,She,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,handed,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,officer,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+65,Identifying ARG2 in sentences with dative alternations,keys,O,O,ARG2
+65,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,He,ARG0,ARG0,_
+66,Identifying ARG2 in sentences with dative alternations,brought,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,some,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,food,ARG1,ARG1,ARG2
+66,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,neighbor,O,ARG2,_
+66,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,brought,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,neighbor,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,some,O,O,_
+66,Identifying ARG2 in sentences with dative alternations,food,O,O,ARG2
+66,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,They,ARG0,ARG0,_
+67,Identifying ARG2 in sentences with dative alternations,passed,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,salt,ARG1,ARG1,ARG2
+67,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,me,O,ARG2,_
+67,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,They,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,passed,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,me,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+67,Identifying ARG2 in sentences with dative alternations,salt,O,O,ARG2
+67,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,We,ARG0,ARG0,_
+68,Identifying ARG2 in sentences with dative alternations,offered,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,job,ARG1,ARG1,ARG2
+68,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,her,O,ARG2,_
+68,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,We,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,offered,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+68,Identifying ARG2 in sentences with dative alternations,job,O,O,ARG2
+68,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,teacher,O,ARG0,_
+69,Identifying ARG2 in sentences with dative alternations,assigned,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,homework,O,ARG1,ARG2
+69,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,students,O,ARG2,_
+69,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,teacher,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,assigned,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,students,O,O,_
+69,Identifying ARG2 in sentences with dative alternations,homework,O,O,ARG2
+69,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,He,O,ARG0,_
+70,Identifying ARG2 in sentences with dative alternations,lent,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,car,O,ARG1,ARG2
+70,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,brother,O,ARG2,_
+70,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,lent,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,brother,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+70,Identifying ARG2 in sentences with dative alternations,car,O,O,ARG2
+70,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,She,ARG0,O,_
+71,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,some,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,advice,ARG1,ARGM-PRR,ARG2
+71,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,colleague,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,She,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,colleague,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,some,O,O,_
+71,Identifying ARG2 in sentences with dative alternations,advice,O,O,ARG2
+71,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,They,ARG0,ARG0,_
+72,Identifying ARG2 in sentences with dative alternations,sold,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,bicycle,ARG1,ARG1,ARG2
+72,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,their,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,cousin,O,ARG2,_
+72,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,They,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,sold,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,their,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,cousin,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+72,Identifying ARG2 in sentences with dative alternations,bicycle,O,O,ARG2
+72,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,He,ARG0,ARG0,_
+73,Identifying ARG2 in sentences with dative alternations,told,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,story,ARG2,ARG1,ARG2
+73,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,children,O,ARG2,_
+73,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,told,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,children,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+73,Identifying ARG2 in sentences with dative alternations,story,O,O,ARG2
+73,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,She,ARG0,ARG0,_
+74,Identifying ARG2 in sentences with dative alternations,promised,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,gift,O,ARG1,ARG2
+74,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,son,O,ARG2,_
+74,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,She,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,promised,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,son,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+74,Identifying ARG2 in sentences with dative alternations,gift,O,O,ARG2
+74,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,We,O,ARG0,_
+75,Identifying ARG2 in sentences with dative alternations,mailed,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,letter,ARG1,ARG1,ARG2
+75,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,our,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,friend,O,ARG2,_
+75,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,We,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,mailed,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,our,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,friend,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+75,Identifying ARG2 in sentences with dative alternations,letter,O,O,ARG2
+75,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,chef,ARG0,ARG0,_
+76,Identifying ARG2 in sentences with dative alternations,served,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,meal,O,ARG1,ARG2
+76,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,guests,O,ARG2,_
+76,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,chef,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,served,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,guests,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+76,Identifying ARG2 in sentences with dative alternations,meal,O,O,ARG2
+76,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,He,ARG0,ARG0,_
+77,Identifying ARG2 in sentences with dative alternations,threw,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,ball,ARG1,ARG1,ARG2
+77,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,teammate,ARG2,ARG2,_
+77,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,threw,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,teammate,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+77,Identifying ARG2 in sentences with dative alternations,ball,O,O,ARG2
+77,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,They,O,ARG0,_
+78,Identifying ARG2 in sentences with dative alternations,awarded,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,prize,ARG1,ARG1,ARG2
+78,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,winner,O,ARG2,_
+78,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,They,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,awarded,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,winner,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+78,Identifying ARG2 in sentences with dative alternations,prize,O,O,ARG2
+78,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,librarian,ARG0,ARG0,_
+79,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,book,ARG1,ARG1,ARG2
+79,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,student,O,ARG2,_
+79,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,librarian,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,student,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+79,Identifying ARG2 in sentences with dative alternations,book,O,O,ARG2
+79,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,She,ARG0,ARG0,_
+80,Identifying ARG2 in sentences with dative alternations,offered,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,some,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,tea,ARG1,ARG1,_
+80,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,guest,O,ARG2,_
+80,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,She,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,offered,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,guest,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,some,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,tea,O,O,_
+80,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,company,ARG0,ARG0,_
+81,Identifying ARG2 in sentences with dative alternations,sent,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,refund,ARG1,ARG1,ARG2
+81,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,customer,ARG2,ARG2,_
+81,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,company,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,sent,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,customer,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+81,Identifying ARG2 in sentences with dative alternations,refund,O,O,ARG2
+81,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,He,ARG0,ARG0,_
+82,Identifying ARG2 in sentences with dative alternations,handed,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,note,O,ARG1,ARG2
+82,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,teacher,O,ARG2,_
+82,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,handed,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,teacher,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+82,Identifying ARG2 in sentences with dative alternations,note,O,O,ARG2
+82,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,We,ARG0,ARG0,_
+83,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,directions,ARG1,ARG1,ARG2
+83,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,tourists,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,We,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,gave,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,tourists,O,O,_
+83,Identifying ARG2 in sentences with dative alternations,directions,O,O,ARG2
+83,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,She,ARG0,ARG0,_
+84,Identifying ARG2 in sentences with dative alternations,forwarded,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,email,ARG1,ARG1,ARG2
+84,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,boss,O,ARG2,_
+84,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,She,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,forwarded,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,her,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,boss,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+84,Identifying ARG2 in sentences with dative alternations,email,O,O,ARG2
+84,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,They,ARG0,ARG0,_
+85,Identifying ARG2 in sentences with dative alternations,paid,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,money,ARG1,ARG1,ARG2
+85,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,vendor,O,ARG2,_
+85,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,They,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,paid,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,vendor,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+85,Identifying ARG2 in sentences with dative alternations,money,O,O,ARG2
+85,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,He,ARG0,ARG0,_
+86,Identifying ARG2 in sentences with dative alternations,showed,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,new,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,phone,ARG1,ARG1,ARG2
+86,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,friends,ARGM-LOC,ARG2,_
+86,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,showed,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,friends,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,his,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,new,O,O,_
+86,Identifying ARG2 in sentences with dative alternations,phone,O,O,ARG2
+86,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,She,O,ARG0,_
+87,Identifying ARG2 in sentences with dative alternations,taught,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,lesson,O,ARG1,ARG2
+87,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,students,O,ARG2,_
+87,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,She,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,taught,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,students,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+87,Identifying ARG2 in sentences with dative alternations,lesson,O,O,ARG2
+87,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,He,ARG0,ARG0,_
+88,Identifying ARG2 in sentences with dative alternations,read,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,book,ARG1,ARG1,ARG2
+88,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,children,O,ARG2,_
+88,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,He,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,read,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,children,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+88,Identifying ARG2 in sentences with dative alternations,book,O,O,ARG2
+88,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,They,ARG0,ARG0,_
+89,Identifying ARG2 in sentences with dative alternations,delivered,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,package,O,ARG1,ARG2
+89,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,client,O,ARG2,_
+89,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,They,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,delivered,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,client,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,a,O,O,_
+89,Identifying ARG2 in sentences with dative alternations,package,O,O,ARG2
+89,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,host,ARG0,ARG0,_
+90,Identifying ARG2 in sentences with dative alternations,served,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,coffee,ARG1,ARG1,ARG2
+90,Identifying ARG2 in sentences with dative alternations,to,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,guests,O,ARG2,_
+90,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,The,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,host,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,served,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,the,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,guests,O,O,_
+90,Identifying ARG2 in sentences with dative alternations,coffee,O,O,ARG2
+90,Identifying ARG2 in sentences with dative alternations,.,O,O,_
+91,Handling verbs that don’t assign roles directly and identifying ARG0,Mary,O,ARG0,ARG0
+91,Handling verbs that don’t assign roles directly and identifying ARG0,hopes,O,O,_
+91,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+91,Handling verbs that don’t assign roles directly and identifying ARG0,visit,O,O,_
+91,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+91,Handling verbs that don’t assign roles directly and identifying ARG0,museum,O,ARG1,_
+92,Handling verbs that don’t assign roles directly and identifying ARG0,John,ARG0,ARG0,ARG0
+92,Handling verbs that don’t assign roles directly and identifying ARG0,decided,O,O,_
+92,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+92,Handling verbs that don’t assign roles directly and identifying ARG0,leave,O,O,_
+92,Handling verbs that don’t assign roles directly and identifying ARG0,early,O,ARGM-TMP,_
+93,Handling verbs that don’t assign roles directly and identifying ARG0,They,O,ARG0,ARG0
+93,Handling verbs that don’t assign roles directly and identifying ARG0,plan,O,O,_
+93,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+93,Handling verbs that don’t assign roles directly and identifying ARG0,start,O,O,_
+93,Handling verbs that don’t assign roles directly and identifying ARG0,a,O,O,_
+93,Handling verbs that don’t assign roles directly and identifying ARG0,business,O,ARG1,_
+94,Handling verbs that don’t assign roles directly and identifying ARG0,She,ARG0,ARG0,ARG0
+94,Handling verbs that don’t assign roles directly and identifying ARG0,wants,O,O,_
+94,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+94,Handling verbs that don’t assign roles directly and identifying ARG0,learn,O,O,_
+94,Handling verbs that don’t assign roles directly and identifying ARG0,Spanish,O,ARG1,_
+95,Handling verbs that don’t assign roles directly and identifying ARG0,He,O,ARG0,ARG0
+95,Handling verbs that don’t assign roles directly and identifying ARG0,refused,O,O,_
+95,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+95,Handling verbs that don’t assign roles directly and identifying ARG0,apologize,O,O,_
+96,Handling verbs that don’t assign roles directly and identifying ARG0,We,O,ARG0,ARG0
+96,Handling verbs that don’t assign roles directly and identifying ARG0,agreed,O,O,_
+96,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+96,Handling verbs that don’t assign roles directly and identifying ARG0,meet,O,O,_
+96,Handling verbs that don’t assign roles directly and identifying ARG0,at,O,O,_
+96,Handling verbs that don’t assign roles directly and identifying ARG0,noon,ARG1,ARGM-TMP,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,The,O,O,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,teacher,O,O,ARG0
+97,Handling verbs that don’t assign roles directly and identifying ARG0,expects,O,O,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,students,O,ARG0,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,finish,O,O,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+97,Handling verbs that don’t assign roles directly and identifying ARG0,assignment,O,ARG1,_
+98,Handling verbs that don’t assign roles directly and identifying ARG0,Sarah,ARG0,ARG0,ARG0
+98,Handling verbs that don’t assign roles directly and identifying ARG0,promised,O,O,_
+98,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+98,Handling verbs that don’t assign roles directly and identifying ARG0,call,O,O,_
+98,Handling verbs that don’t assign roles directly and identifying ARG0,later,O,ARGM-TMP,_
+99,Handling verbs that don’t assign roles directly and identifying ARG0,He,O,ARG0,ARG0
+99,Handling verbs that don’t assign roles directly and identifying ARG0,forgot,O,O,_
+99,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+99,Handling verbs that don’t assign roles directly and identifying ARG0,lock,O,O,_
+99,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+99,Handling verbs that don’t assign roles directly and identifying ARG0,door,O,ARG1,_
+100,Handling verbs that don’t assign roles directly and identifying ARG0,I,O,ARG0,ARG0
+100,Handling verbs that don’t assign roles directly and identifying ARG0,attempted,O,O,_
+100,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+100,Handling verbs that don’t assign roles directly and identifying ARG0,fix,O,O,_
+100,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+100,Handling verbs that don’t assign roles directly and identifying ARG0,computer,O,ARG1,_
+101,Handling verbs that don’t assign roles directly and identifying ARG0,She,O,ARG0,ARG0
+101,Handling verbs that don’t assign roles directly and identifying ARG0,managed,O,O,_
+101,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+101,Handling verbs that don’t assign roles directly and identifying ARG0,complete,O,O,_
+101,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+101,Handling verbs that don’t assign roles directly and identifying ARG0,project,ARG1,ARG1,_
+102,Handling verbs that don’t assign roles directly and identifying ARG0,They,O,ARG1,ARG0
+102,Handling verbs that don’t assign roles directly and identifying ARG0,failed,O,O,_
+102,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+102,Handling verbs that don’t assign roles directly and identifying ARG0,arrive,O,O,_
+102,Handling verbs that don’t assign roles directly and identifying ARG0,on,O,O,_
+102,Handling verbs that don’t assign roles directly and identifying ARG0,time,O,ARGM-TMP,_
+103,Handling verbs that don’t assign roles directly and identifying ARG0,The,O,O,_
+103,Handling verbs that don’t assign roles directly and identifying ARG0,boss,O,O,ARG0
+103,Handling verbs that don’t assign roles directly and identifying ARG0,ordered,O,O,_
+103,Handling verbs that don’t assign roles directly and identifying ARG0,him,O,ARG0,_
+103,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+103,Handling verbs that don’t assign roles directly and identifying ARG0,submit,O,O,_
+103,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+103,Handling verbs that don’t assign roles directly and identifying ARG0,report,O,ARG1,_
+104,Handling verbs that don’t assign roles directly and identifying ARG0,He,ARG1,ARG1,ARG0
+104,Handling verbs that don’t assign roles directly and identifying ARG0,pretended,O,O,_
+104,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+104,Handling verbs that don’t assign roles directly and identifying ARG0,be,O,O,_
+104,Handling verbs that don’t assign roles directly and identifying ARG0,asleep,ARG2,ARG2,_
+105,Handling verbs that don’t assign roles directly and identifying ARG0,She,ARG0,ARG0,ARG0
+105,Handling verbs that don’t assign roles directly and identifying ARG0,remembered,O,O,_
+105,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+105,Handling verbs that don’t assign roles directly and identifying ARG0,bring,O,O,_
+105,Handling verbs that don’t assign roles directly and identifying ARG0,her,O,O,_
+105,Handling verbs that don’t assign roles directly and identifying ARG0,keys,ARG1,ARG1,_
+106,Handling verbs that don’t assign roles directly and identifying ARG0,We,ARG0,ARG0,ARG0
+106,Handling verbs that don’t assign roles directly and identifying ARG0,needed,O,O,_
+106,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+106,Handling verbs that don’t assign roles directly and identifying ARG0,buy,O,O,_
+106,Handling verbs that don’t assign roles directly and identifying ARG0,groceries,ARG1,ARG1,_
+107,Handling verbs that don’t assign roles directly and identifying ARG0,The,O,O,_
+107,Handling verbs that don’t assign roles directly and identifying ARG0,athlete,O,ARG0,ARG0
+107,Handling verbs that don’t assign roles directly and identifying ARG0,tried,O,O,_
+107,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+107,Handling verbs that don’t assign roles directly and identifying ARG0,beat,O,O,_
+107,Handling verbs that don’t assign roles directly and identifying ARG0,his,O,O,_
+107,Handling verbs that don’t assign roles directly and identifying ARG0,record,O,ARG1,_
+108,Handling verbs that don’t assign roles directly and identifying ARG0,The,O,O,_
+108,Handling verbs that don’t assign roles directly and identifying ARG0,child,ARG1,ARG1,ARG0
+108,Handling verbs that don’t assign roles directly and identifying ARG0,begged,O,O,_
+108,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+108,Handling verbs that don’t assign roles directly and identifying ARG0,stay,O,O,_
+108,Handling verbs that don’t assign roles directly and identifying ARG0,up,O,O,_
+108,Handling verbs that don’t assign roles directly and identifying ARG0,late,O,ARGM-TMP,_
+109,Handling verbs that don’t assign roles directly and identifying ARG0,She,ARG0,ARG0,ARG0
+109,Handling verbs that don’t assign roles directly and identifying ARG0,decided,O,O,_
+109,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+109,Handling verbs that don’t assign roles directly and identifying ARG0,change,O,O,_
+109,Handling verbs that don’t assign roles directly and identifying ARG0,her,O,O,_
+109,Handling verbs that don’t assign roles directly and identifying ARG0,major,ARG1,ARG1,_
+110,Handling verbs that don’t assign roles directly and identifying ARG0,They,ARG0,ARG0,ARG0
+110,Handling verbs that don’t assign roles directly and identifying ARG0,threatened,O,O,_
+110,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+110,Handling verbs that don’t assign roles directly and identifying ARG0,cancel,O,O,_
+110,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+110,Handling verbs that don’t assign roles directly and identifying ARG0,event,ARG1,ARG1,_
+111,Handling verbs that don’t assign roles directly and identifying ARG0,He,ARG0,ARG0,ARG0
+111,Handling verbs that don’t assign roles directly and identifying ARG0,promised,O,O,_
+111,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+111,Handling verbs that don’t assign roles directly and identifying ARG0,help,O,O,_
+111,Handling verbs that don’t assign roles directly and identifying ARG0,with,O,O,_
+111,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+111,Handling verbs that don’t assign roles directly and identifying ARG0,move,ARG1,ARG1,_
+112,Handling verbs that don’t assign roles directly and identifying ARG0,The,O,O,_
+112,Handling verbs that don’t assign roles directly and identifying ARG0,scientist,O,ARG0,ARG0
+112,Handling verbs that don’t assign roles directly and identifying ARG0,hoped,O,O,_
+112,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+112,Handling verbs that don’t assign roles directly and identifying ARG0,discover,O,O,_
+112,Handling verbs that don’t assign roles directly and identifying ARG0,a,O,O,_
+112,Handling verbs that don’t assign roles directly and identifying ARG0,cure,O,ARG1,_
+113,Handling verbs that don’t assign roles directly and identifying ARG0,She,O,ARG0,ARG0
+113,Handling verbs that don’t assign roles directly and identifying ARG0,hesitated,O,O,_
+113,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+113,Handling verbs that don’t assign roles directly and identifying ARG0,answer,O,O,_
+113,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+113,Handling verbs that don’t assign roles directly and identifying ARG0,question,O,ARG1,_
+114,Handling verbs that don’t assign roles directly and identifying ARG0,He,O,ARG0,ARG0
+114,Handling verbs that don’t assign roles directly and identifying ARG0,volunteered,O,O,_
+114,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+114,Handling verbs that don’t assign roles directly and identifying ARG0,lead,O,O,_
+114,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+114,Handling verbs that don’t assign roles directly and identifying ARG0,project,O,ARG1,_
+115,Handling verbs that don’t assign roles directly and identifying ARG0,The,O,O,_
+115,Handling verbs that don’t assign roles directly and identifying ARG0,students,O,O,ARG0
+115,Handling verbs that don’t assign roles directly and identifying ARG0,prepared,O,O,_
+115,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+115,Handling verbs that don’t assign roles directly and identifying ARG0,take,O,O,_
+115,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+115,Handling verbs that don’t assign roles directly and identifying ARG0,test,ARG1,ARGM-PRR,_
+116,Handling verbs that don’t assign roles directly and identifying ARG0,She,ARG0,ARG0,ARG0
+116,Handling verbs that don’t assign roles directly and identifying ARG0,struggled,O,O,_
+116,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+116,Handling verbs that don’t assign roles directly and identifying ARG0,find,O,O,_
+116,Handling verbs that don’t assign roles directly and identifying ARG0,a,O,O,_
+116,Handling verbs that don’t assign roles directly and identifying ARG0,solution,ARG1,ARG1,_
+117,Handling verbs that don’t assign roles directly and identifying ARG0,The,O,O,_
+117,Handling verbs that don’t assign roles directly and identifying ARG0,musician,O,ARG0,ARG0
+117,Handling verbs that don’t assign roles directly and identifying ARG0,offered,O,O,_
+117,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+117,Handling verbs that don’t assign roles directly and identifying ARG0,play,O,O,_
+117,Handling verbs that don’t assign roles directly and identifying ARG0,another,O,O,_
+117,Handling verbs that don’t assign roles directly and identifying ARG0,song,ARG1,ARG1,_
+118,Handling verbs that don’t assign roles directly and identifying ARG0,He,ARG0,ARG0,ARG0
+118,Handling verbs that don’t assign roles directly and identifying ARG0,demanded,O,O,_
+118,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+118,Handling verbs that don’t assign roles directly and identifying ARG0,see,O,O,_
+118,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+118,Handling verbs that don’t assign roles directly and identifying ARG0,manager,ARG1,ARG1,_
+119,Handling verbs that don’t assign roles directly and identifying ARG0,They,O,ARG0,ARG0
+119,Handling verbs that don’t assign roles directly and identifying ARG0,wished,O,O,_
+119,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+119,Handling verbs that don’t assign roles directly and identifying ARG0,travel,O,O,_
+119,Handling verbs that don’t assign roles directly and identifying ARG0,abroad,O,ARG3,_
+120,Handling verbs that don’t assign roles directly and identifying ARG0,She,O,ARG0,ARG0
+120,Handling verbs that don’t assign roles directly and identifying ARG0,dared,O,O,_
+120,Handling verbs that don’t assign roles directly and identifying ARG0,to,O,O,_
+120,Handling verbs that don’t assign roles directly and identifying ARG0,question,O,O,_
+120,Handling verbs that don’t assign roles directly and identifying ARG0,the,O,O,_
+120,Handling verbs that don’t assign roles directly and identifying ARG0,professor,O,ARG1,_
+121,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+121,Detecting ARG1 in passive constructions with implied arguments,book,O,ARG1,ARG1
+121,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+121,Detecting ARG1 in passive constructions with implied arguments,written,O,O,_
+121,Detecting ARG1 in passive constructions with implied arguments,in,O,O,_
+121,Detecting ARG1 in passive constructions with implied arguments,1985,ARGM-TMP,ARGM-TMP,_
+122,Detecting ARG1 in passive constructions with implied arguments,A,O,O,_
+122,Detecting ARG1 in passive constructions with implied arguments,new,O,O,_
+122,Detecting ARG1 in passive constructions with implied arguments,policy,ARG1,ARG1,ARG1
+122,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+122,Detecting ARG1 in passive constructions with implied arguments,introduced,O,O,_
+122,Detecting ARG1 in passive constructions with implied arguments,last,O,O,_
+122,Detecting ARG1 in passive constructions with implied arguments,week,O,ARGM-TMP,_
+123,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+123,Detecting ARG1 in passive constructions with implied arguments,cake,O,ARG1,ARG1
+123,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+123,Detecting ARG1 in passive constructions with implied arguments,baked,O,O,_
+123,Detecting ARG1 in passive constructions with implied arguments,this,O,O,_
+123,Detecting ARG1 in passive constructions with implied arguments,morning,O,ARGM-TMP,_
+124,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+124,Detecting ARG1 in passive constructions with implied arguments,project,ARG1,ARG1,ARG1
+124,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+124,Detecting ARG1 in passive constructions with implied arguments,completed,O,O,_
+124,Detecting ARG1 in passive constructions with implied arguments,on,O,O,_
+124,Detecting ARG1 in passive constructions with implied arguments,time,O,ARGM-TMP,_
+125,Detecting ARG1 in passive constructions with implied arguments,A,O,O,_
+125,Detecting ARG1 in passive constructions with implied arguments,mistake,O,ARG1,ARG1
+125,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+125,Detecting ARG1 in passive constructions with implied arguments,discovered,O,O,_
+125,Detecting ARG1 in passive constructions with implied arguments,in,O,O,_
+125,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+125,Detecting ARG1 in passive constructions with implied arguments,report,O,ARGM-LOC,_
+126,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+126,Detecting ARG1 in passive constructions with implied arguments,experiment,O,ARG1,ARG1
+126,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+126,Detecting ARG1 in passive constructions with implied arguments,conducted,O,O,_
+126,Detecting ARG1 in passive constructions with implied arguments,carefully,O,ARGM-MNR,_
+127,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+127,Detecting ARG1 in passive constructions with implied arguments,house,O,ARG1,ARG1
+127,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+127,Detecting ARG1 in passive constructions with implied arguments,sold,O,O,_
+127,Detecting ARG1 in passive constructions with implied arguments,for,O,O,_
+127,Detecting ARG1 in passive constructions with implied arguments,a,O,O,_
+127,Detecting ARG1 in passive constructions with implied arguments,high,O,O,_
+127,Detecting ARG1 in passive constructions with implied arguments,price,O,ARG2,_
+128,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+128,Detecting ARG1 in passive constructions with implied arguments,message,ARG1,ARG1,ARG1
+128,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+128,Detecting ARG1 in passive constructions with implied arguments,delivered,O,O,_
+128,Detecting ARG1 in passive constructions with implied arguments,yesterday,O,ARGM-TMP,_
+129,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+129,Detecting ARG1 in passive constructions with implied arguments,artwork,O,ARG1,ARG1
+129,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+129,Detecting ARG1 in passive constructions with implied arguments,stolen,O,O,_
+129,Detecting ARG1 in passive constructions with implied arguments,from,O,O,_
+129,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+129,Detecting ARG1 in passive constructions with implied arguments,gallery,O,ARG2,_
+130,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+130,Detecting ARG1 in passive constructions with implied arguments,bridge,O,ARG1,ARG1
+130,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+130,Detecting ARG1 in passive constructions with implied arguments,repaired,O,O,_
+130,Detecting ARG1 in passive constructions with implied arguments,last,O,O,_
+130,Detecting ARG1 in passive constructions with implied arguments,month,O,ARGM-TMP,_
+131,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+131,Detecting ARG1 in passive constructions with implied arguments,results,O,ARG1,ARG1
+131,Detecting ARG1 in passive constructions with implied arguments,were,O,O,_
+131,Detecting ARG1 in passive constructions with implied arguments,published,O,O,_
+131,Detecting ARG1 in passive constructions with implied arguments,in,O,O,_
+131,Detecting ARG1 in passive constructions with implied arguments,a,O,O,_
+131,Detecting ARG1 in passive constructions with implied arguments,journal,ARG1,ARGM-LOC,_
+132,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+132,Detecting ARG1 in passive constructions with implied arguments,package,ARG1,ARG1,ARG1
+132,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+132,Detecting ARG1 in passive constructions with implied arguments,shipped,O,O,_
+132,Detecting ARG1 in passive constructions with implied arguments,this,O,O,_
+132,Detecting ARG1 in passive constructions with implied arguments,morning,O,ARGM-TMP,_
+133,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+133,Detecting ARG1 in passive constructions with implied arguments,documents,O,ARG1,ARG1
+133,Detecting ARG1 in passive constructions with implied arguments,were,O,O,_
+133,Detecting ARG1 in passive constructions with implied arguments,signed,O,O,_
+133,Detecting ARG1 in passive constructions with implied arguments,at,O,O,_
+133,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+133,Detecting ARG1 in passive constructions with implied arguments,office,O,ARGM-LOC,_
+134,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+134,Detecting ARG1 in passive constructions with implied arguments,invitation,ARG1,ARG1,ARG1
+134,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+134,Detecting ARG1 in passive constructions with implied arguments,sent,O,O,_
+134,Detecting ARG1 in passive constructions with implied arguments,last,O,O,_
+134,Detecting ARG1 in passive constructions with implied arguments,night,ARGM-TMP,ARGM-TMP,_
+135,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+135,Detecting ARG1 in passive constructions with implied arguments,problem,O,ARG1,ARG1
+135,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+135,Detecting ARG1 in passive constructions with implied arguments,solved,O,O,_
+135,Detecting ARG1 in passive constructions with implied arguments,efficiently,O,ARGM-MNR,_
+136,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+136,Detecting ARG1 in passive constructions with implied arguments,road,O,ARG1,ARG1
+136,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+136,Detecting ARG1 in passive constructions with implied arguments,blocked,O,O,_
+136,Detecting ARG1 in passive constructions with implied arguments,due,O,O,_
+136,Detecting ARG1 in passive constructions with implied arguments,to,O,O,_
+136,Detecting ARG1 in passive constructions with implied arguments,an,O,O,_
+136,Detecting ARG1 in passive constructions with implied arguments,accident,O,ARGM-CAU,_
+137,Detecting ARG1 in passive constructions with implied arguments,A,O,O,_
+137,Detecting ARG1 in passive constructions with implied arguments,new,O,O,_
+137,Detecting ARG1 in passive constructions with implied arguments,stadium,O,ARG1,ARG1
+137,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+137,Detecting ARG1 in passive constructions with implied arguments,built,O,O,_
+137,Detecting ARG1 in passive constructions with implied arguments,in,O,O,_
+137,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+137,Detecting ARG1 in passive constructions with implied arguments,city,O,ARGM-LOC,_
+138,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+138,Detecting ARG1 in passive constructions with implied arguments,flowers,O,ARG1,ARG1
+138,Detecting ARG1 in passive constructions with implied arguments,were,O,O,_
+138,Detecting ARG1 in passive constructions with implied arguments,planted,O,O,_
+138,Detecting ARG1 in passive constructions with implied arguments,in,O,O,_
+138,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+138,Detecting ARG1 in passive constructions with implied arguments,garden,O,ARG2,_
+139,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+139,Detecting ARG1 in passive constructions with implied arguments,window,O,ARG1,ARG1
+139,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+139,Detecting ARG1 in passive constructions with implied arguments,broken,O,O,_
+139,Detecting ARG1 in passive constructions with implied arguments,during,O,O,_
+139,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+139,Detecting ARG1 in passive constructions with implied arguments,storm,O,ARGM-TMP,_
+140,Detecting ARG1 in passive constructions with implied arguments,A,O,O,_
+140,Detecting ARG1 in passive constructions with implied arguments,decision,ARG1,ARG1,ARG1
+140,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+140,Detecting ARG1 in passive constructions with implied arguments,reached,O,O,_
+140,Detecting ARG1 in passive constructions with implied arguments,after,O,O,_
+140,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+140,Detecting ARG1 in passive constructions with implied arguments,meeting,O,ARGM-TMP,_
+141,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+141,Detecting ARG1 in passive constructions with implied arguments,report,O,ARG1,ARG1
+141,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+141,Detecting ARG1 in passive constructions with implied arguments,submitted,O,O,_
+141,Detecting ARG1 in passive constructions with implied arguments,to,O,O,_
+141,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+141,Detecting ARG1 in passive constructions with implied arguments,committee,O,ARG2,_
+142,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+142,Detecting ARG1 in passive constructions with implied arguments,movie,O,ARG1,ARG1
+142,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+142,Detecting ARG1 in passive constructions with implied arguments,released,O,O,_
+142,Detecting ARG1 in passive constructions with implied arguments,worldwide,O,ARGM-LOC,_
+143,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+143,Detecting ARG1 in passive constructions with implied arguments,homework,ARG1,ARG1,ARG1
+143,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+143,Detecting ARG1 in passive constructions with implied arguments,completed,O,O,_
+143,Detecting ARG1 in passive constructions with implied arguments,before,O,O,_
+143,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+143,Detecting ARG1 in passive constructions with implied arguments,deadline,O,ARGM-TMP,_
+144,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+144,Detecting ARG1 in passive constructions with implied arguments,error,O,ARG1,ARG1
+144,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+144,Detecting ARG1 in passive constructions with implied arguments,corrected,O,O,_
+144,Detecting ARG1 in passive constructions with implied arguments,in,O,O,_
+144,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+144,Detecting ARG1 in passive constructions with implied arguments,final,O,O,_
+144,Detecting ARG1 in passive constructions with implied arguments,version,O,ARGM-LOC,_
+145,Detecting ARG1 in passive constructions with implied arguments,A,O,O,_
+145,Detecting ARG1 in passive constructions with implied arguments,complaint,O,ARG1,ARG1
+145,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+145,Detecting ARG1 in passive constructions with implied arguments,filed,O,O,_
+145,Detecting ARG1 in passive constructions with implied arguments,against,O,O,_
+145,Detecting ARG1 in passive constructions with implied arguments,the,O,O,_
+145,Detecting ARG1 in passive constructions with implied arguments,company,O,ARG2,_
+146,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+146,Detecting ARG1 in passive constructions with implied arguments,room,ARG1,ARG1,ARG1
+146,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+146,Detecting ARG1 in passive constructions with implied arguments,cleaned,O,O,_
+146,Detecting ARG1 in passive constructions with implied arguments,thoroughly,O,ARGM-MNR,_
+147,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+147,Detecting ARG1 in passive constructions with implied arguments,painting,O,ARG1,ARG1
+147,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+147,Detecting ARG1 in passive constructions with implied arguments,restored,O,O,_
+147,Detecting ARG1 in passive constructions with implied arguments,carefully,O,ARGM-MNR,_
+148,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+148,Detecting ARG1 in passive constructions with implied arguments,contract,O,ARG1,ARG1
+148,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+148,Detecting ARG1 in passive constructions with implied arguments,signed,O,O,_
+148,Detecting ARG1 in passive constructions with implied arguments,in,O,O,_
+148,Detecting ARG1 in passive constructions with implied arguments,a,O,O,_
+148,Detecting ARG1 in passive constructions with implied arguments,hurry,O,ARGM-MNR,_
+149,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+149,Detecting ARG1 in passive constructions with implied arguments,test,O,ARG1,ARG1
+149,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+149,Detecting ARG1 in passive constructions with implied arguments,taken,O,O,_
+149,Detecting ARG1 in passive constructions with implied arguments,yesterday,O,ARGM-TMP,_
+150,Detecting ARG1 in passive constructions with implied arguments,The,O,O,_
+150,Detecting ARG1 in passive constructions with implied arguments,car,O,ARG1,ARG1
+150,Detecting ARG1 in passive constructions with implied arguments,was,O,O,_
+150,Detecting ARG1 in passive constructions with implied arguments,washed,O,O,_
+150,Detecting ARG1 in passive constructions with implied arguments,this,O,O,_
+150,Detecting ARG1 in passive constructions with implied arguments,morning,O,ARGM-TMP,_

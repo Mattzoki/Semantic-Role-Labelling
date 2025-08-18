@@ -1,0 +1,6042 @@
+[
+    {
+        "Capability": "Identifying ARG0 in clefted sentences",
+        "Sentences": [
+            {
+                "sentence": "It was John who fixed the car.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "John",
+                    "who",
+                    "fixed",
+                    "the",
+                    "car"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "John marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Mary that wrote the report.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Mary",
+                    "that",
+                    "wrote",
+                    "the",
+                    "report"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Mary marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the manager who approved the proposal.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "manager",
+                    "who",
+                    "approved",
+                    "the",
+                    "proposal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "manager marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Tom who painted the house.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Tom",
+                    "who",
+                    "painted",
+                    "the",
+                    "house"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Tom marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Alice that designed the website.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Alice",
+                    "that",
+                    "designed",
+                    "the",
+                    "website"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Alice marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the teacher who explained the concept.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "teacher",
+                    "who",
+                    "explained",
+                    "the",
+                    "concept"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "teacher marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Sara who baked the cake.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Sara",
+                    "who",
+                    "baked",
+                    "the",
+                    "cake"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Sara marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the scientist who discovered the formula.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "scientist",
+                    "who",
+                    "discovered",
+                    "the",
+                    "formula"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "scientist marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the author who wrote the book.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "author",
+                    "who",
+                    "wrote",
+                    "the",
+                    "book"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "author marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was David that called you earlier.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "David",
+                    "that",
+                    "called",
+                    "you",
+                    "earlier"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "David marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the lawyer who defended the client.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "lawyer",
+                    "who",
+                    "defended",
+                    "the",
+                    "client"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "lawyer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Emma who solved the puzzle.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Emma",
+                    "who",
+                    "solved",
+                    "the",
+                    "puzzle"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Emma marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the musician that composed the song.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "musician",
+                    "that",
+                    "composed",
+                    "the",
+                    "song"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "musician marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the chef who cooked the meal.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "chef",
+                    "who",
+                    "cooked",
+                    "the",
+                    "meal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "chef marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Lisa that organized the event.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Lisa",
+                    "that",
+                    "organized",
+                    "the",
+                    "event"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Lisa marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the engineer who built the bridge.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "engineer",
+                    "who",
+                    "built",
+                    "the",
+                    "bridge"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "engineer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Michael who found the lost keys.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Michael",
+                    "who",
+                    "found",
+                    "the",
+                    "lost",
+                    "keys"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "Michael marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the artist who painted the mural.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "artist",
+                    "who",
+                    "painted",
+                    "the",
+                    "mural"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "artist marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Daniel that carried the boxes.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Daniel",
+                    "that",
+                    "carried",
+                    "the",
+                    "boxes"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Daniel marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the nurse who helped the patient.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "nurse",
+                    "who",
+                    "helped",
+                    "the",
+                    "patient"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "nurse marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the student that answered the question.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "student",
+                    "that",
+                    "answered",
+                    "the",
+                    "question"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "student marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the programmer who fixed the bug.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "programmer",
+                    "who",
+                    "fixed",
+                    "the",
+                    "bug"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "programmer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the director that made the decision.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "director",
+                    "that",
+                    "made",
+                    "the",
+                    "decision"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "director marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Julia who closed the deal.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Julia",
+                    "who",
+                    "closed",
+                    "the",
+                    "deal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Julia marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the officer who arrested the suspect.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "officer",
+                    "who",
+                    "arrested",
+                    "the",
+                    "suspect"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "officer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the entrepreneur who started the company.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "entrepreneur",
+                    "who",
+                    "started",
+                    "the",
+                    "company"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "entrepreneur marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the farmer that harvested the crops.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "farmer",
+                    "that",
+                    "harvested",
+                    "the",
+                    "crops"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "farmer marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the coach who trained the team.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "coach",
+                    "who",
+                    "trained",
+                    "the",
+                    "team"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "coach marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was the actor who performed the scene.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "the",
+                    "actor",
+                    "who",
+                    "performed",
+                    "the",
+                    "scene"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "actor marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "It was Olivia who completed the assignment.",
+                "sentence_tok": [
+                    "It",
+                    "was",
+                    "Olivia",
+                    "who",
+                    "completed",
+                    "the",
+                    "assignment"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Olivia marked as ARG0",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            }
+        ]
+    },
+    {
+        "Capability": "Identifying ARG1 in sentences with dative alternations",
+        "Sentences": [
+            {
+                "sentence": "She gave the book to him. She gave him the book.",
+                "sentence_tok": [
+                    "She",
+                    "gave",
+                    "the",
+                    "book",
+                    "to",
+                    "him",
+                    ".",
+                    "She",
+                    "gave",
+                    "him",
+                    "the",
+                    "book",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "him and him marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They sent a package to their friend. They sent their friend a package.",
+                "sentence_tok": [
+                    "They",
+                    "sent",
+                    "a",
+                    "package",
+                    "to",
+                    "their",
+                    "friend",
+                    ".",
+                    "They",
+                    "sent",
+                    "their",
+                    "friend",
+                    "a",
+                    "package",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "friend and friend marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He showed the painting to his professor. He showed his professor the painting.",
+                "sentence_tok": [
+                    "He",
+                    "showed",
+                    "the",
+                    "painting",
+                    "to",
+                    "his",
+                    "professor",
+                    ".",
+                    "He",
+                    "showed",
+                    "his",
+                    "professor",
+                    "the",
+                    "painting",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "professor and professor marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "I wrote a letter to my sister. I wrote my sister a letter.",
+                "sentence_tok": [
+                    "I",
+                    "wrote",
+                    "a",
+                    "letter",
+                    "to",
+                    "my",
+                    "sister",
+                    ".",
+                    "I",
+                    "wrote",
+                    "my",
+                    "sister",
+                    "a",
+                    "letter",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "sister and sister marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She handed the keys to the officer. She handed the officer the keys.",
+                "sentence_tok": [
+                    "She",
+                    "handed",
+                    "the",
+                    "keys",
+                    "to",
+                    "the",
+                    "officer",
+                    ".",
+                    "She",
+                    "handed",
+                    "the",
+                    "officer",
+                    "the",
+                    "keys",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "officer and officer marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He brought some food to his neighbor. He brought his neighbor some food.",
+                "sentence_tok": [
+                    "He",
+                    "brought",
+                    "some",
+                    "food",
+                    "to",
+                    "his",
+                    "neighbor",
+                    ".",
+                    "He",
+                    "brought",
+                    "his",
+                    "neighbor",
+                    "some",
+                    "food",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "neighbor and neighbor marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They passed the salt to me. They passed me the salt.",
+                "sentence_tok": [
+                    "They",
+                    "passed",
+                    "the",
+                    "salt",
+                    "to",
+                    "me",
+                    ".",
+                    "They",
+                    "passed",
+                    "me",
+                    "the",
+                    "salt",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "me and me marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We offered a job to her. We offered her a job.",
+                "sentence_tok": [
+                    "We",
+                    "offered",
+                    "a",
+                    "job",
+                    "to",
+                    "her",
+                    ".",
+                    "We",
+                    "offered",
+                    "her",
+                    "a",
+                    "job",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "her and her marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The teacher assigned homework to the students. The teacher assigned the students homework.",
+                "sentence_tok": [
+                    "The",
+                    "teacher",
+                    "assigned",
+                    "homework",
+                    "to",
+                    "the",
+                    "students",
+                    ".",
+                    "The",
+                    "teacher",
+                    "assigned",
+                    "the",
+                    "students",
+                    "homework",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "students and students marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He lent his car to his brother. He lent his brother his car.",
+                "sentence_tok": [
+                    "He",
+                    "lent",
+                    "his",
+                    "car",
+                    "to",
+                    "his",
+                    "brother",
+                    ".",
+                    "He",
+                    "lent",
+                    "his",
+                    "brother",
+                    "his",
+                    "car",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "brother and brother marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She gave some advice to her colleague. She gave her colleague some advice.",
+                "sentence_tok": [
+                    "She",
+                    "gave",
+                    "some",
+                    "advice",
+                    "to",
+                    "her",
+                    "colleague",
+                    ".",
+                    "She",
+                    "gave",
+                    "her",
+                    "colleague",
+                    "some",
+                    "advice",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "colleague and colleague marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They sold a bicycle to their cousin. They sold their cousin a bicycle.",
+                "sentence_tok": [
+                    "They",
+                    "sold",
+                    "a",
+                    "bicycle",
+                    "to",
+                    "their",
+                    "cousin",
+                    ".",
+                    "They",
+                    "sold",
+                    "their",
+                    "cousin",
+                    "a",
+                    "bicycle",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "cousin and cousin marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He told a story to the children. He told the children a story.",
+                "sentence_tok": [
+                    "He",
+                    "told",
+                    "a",
+                    "story",
+                    "to",
+                    "the",
+                    "children",
+                    ".",
+                    "He",
+                    "told",
+                    "the",
+                    "children",
+                    "a",
+                    "story",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "children and children marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She promised a gift to her son. She promised her son a gift.",
+                "sentence_tok": [
+                    "She",
+                    "promised",
+                    "a",
+                    "gift",
+                    "to",
+                    "her",
+                    "son",
+                    ".",
+                    "She",
+                    "promised",
+                    "her",
+                    "son",
+                    "a",
+                    "gift",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "son and son marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We mailed a letter to our friend. We mailed our friend a letter.",
+                "sentence_tok": [
+                    "We",
+                    "mailed",
+                    "a",
+                    "letter",
+                    "to",
+                    "our",
+                    "friend",
+                    ".",
+                    "We",
+                    "mailed",
+                    "our",
+                    "friend",
+                    "a",
+                    "letter",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "friend and friend marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The chef served a meal to the guests. The chef served the guests a meal.",
+                "sentence_tok": [
+                    "The",
+                    "chef",
+                    "served",
+                    "a",
+                    "meal",
+                    "to",
+                    "the",
+                    "guests",
+                    ".",
+                    "The",
+                    "chef",
+                    "served",
+                    "the",
+                    "guests",
+                    "a",
+                    "meal",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "guests and guests marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He threw the ball to his teammate. He threw his teammate the ball.",
+                "sentence_tok": [
+                    "He",
+                    "threw",
+                    "the",
+                    "ball",
+                    "to",
+                    "his",
+                    "teammate",
+                    ".",
+                    "He",
+                    "threw",
+                    "his",
+                    "teammate",
+                    "the",
+                    "ball",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "teammate and teammate marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They awarded a prize to the winner. They awarded the winner a prize.",
+                "sentence_tok": [
+                    "They",
+                    "awarded",
+                    "a",
+                    "prize",
+                    "to",
+                    "the",
+                    "winner",
+                    ".",
+                    "They",
+                    "awarded",
+                    "the",
+                    "winner",
+                    "a",
+                    "prize",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "winner and winner marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The librarian gave a book to the student. The librarian gave the student a book.",
+                "sentence_tok": [
+                    "The",
+                    "librarian",
+                    "gave",
+                    "a",
+                    "book",
+                    "to",
+                    "the",
+                    "student",
+                    ".",
+                    "The",
+                    "librarian",
+                    "gave",
+                    "the",
+                    "student",
+                    "a",
+                    "book",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "student and student marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She offered some tea to her guest. She offered her guest some tea.",
+                "sentence_tok": [
+                    "She",
+                    "offered",
+                    "some",
+                    "tea",
+                    "to",
+                    "her",
+                    "guest",
+                    ".",
+                    "She",
+                    "offered",
+                    "her",
+                    "guest",
+                    "some",
+                    "tea",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "guest and guest marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The company sent a refund to the customer. The company sent the customer a refund.",
+                "sentence_tok": [
+                    "The",
+                    "company",
+                    "sent",
+                    "a",
+                    "refund",
+                    "to",
+                    "the",
+                    "customer",
+                    ".",
+                    "The",
+                    "company",
+                    "sent",
+                    "the",
+                    "customer",
+                    "a",
+                    "refund",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "customer and customer marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He handed a note to the teacher. He handed the teacher a note.",
+                "sentence_tok": [
+                    "He",
+                    "handed",
+                    "a",
+                    "note",
+                    "to",
+                    "the",
+                    "teacher",
+                    ".",
+                    "He",
+                    "handed",
+                    "the",
+                    "teacher",
+                    "a",
+                    "note",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "teacher and teacher marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We gave directions to the tourists. We gave the tourists directions.",
+                "sentence_tok": [
+                    "We",
+                    "gave",
+                    "directions",
+                    "to",
+                    "the",
+                    "tourists",
+                    ".",
+                    "We",
+                    "gave",
+                    "the",
+                    "tourists",
+                    "directions",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "tourists and tourists marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She forwarded the email to her boss. She forwarded her boss the email.",
+                "sentence_tok": [
+                    "She",
+                    "forwarded",
+                    "the",
+                    "email",
+                    "to",
+                    "her",
+                    "boss",
+                    ".",
+                    "She",
+                    "forwarded",
+                    "her",
+                    "boss",
+                    "the",
+                    "email",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "boss and boss marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They paid the money to the vendor. They paid the vendor the money.",
+                "sentence_tok": [
+                    "They",
+                    "paid",
+                    "the",
+                    "money",
+                    "to",
+                    "the",
+                    "vendor",
+                    ".",
+                    "They",
+                    "paid",
+                    "the",
+                    "vendor",
+                    "the",
+                    "money",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "vendor and vendor marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He showed his new phone to his friends. He showed his friends his new phone.",
+                "sentence_tok": [
+                    "He",
+                    "showed",
+                    "his",
+                    "new",
+                    "phone",
+                    "to",
+                    "his",
+                    "friends",
+                    ".",
+                    "He",
+                    "showed",
+                    "his",
+                    "friends",
+                    "his",
+                    "new",
+                    "phone",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "friends and friends marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She taught the lesson to the students. She taught the students the lesson.",
+                "sentence_tok": [
+                    "She",
+                    "taught",
+                    "the",
+                    "lesson",
+                    "to",
+                    "the",
+                    "students",
+                    ".",
+                    "She",
+                    "taught",
+                    "the",
+                    "students",
+                    "the",
+                    "lesson",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "students and students marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He read a book to the children. He read the children a book.",
+                "sentence_tok": [
+                    "He",
+                    "read",
+                    "a",
+                    "book",
+                    "to",
+                    "the",
+                    "children",
+                    ".",
+                    "He",
+                    "read",
+                    "the",
+                    "children",
+                    "a",
+                    "book",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "children and children marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They delivered a package to the client. They delivered the client a package.",
+                "sentence_tok": [
+                    "They",
+                    "delivered",
+                    "a",
+                    "package",
+                    "to",
+                    "the",
+                    "client",
+                    ".",
+                    "They",
+                    "delivered",
+                    "the",
+                    "client",
+                    "a",
+                    "package",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "client and client marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The host served coffee to the guests. The host served the guests coffee.",
+                "sentence_tok": [
+                    "The",
+                    "host",
+                    "served",
+                    "coffee",
+                    "to",
+                    "the",
+                    "guests",
+                    ".",
+                    "The",
+                    "host",
+                    "served",
+                    "the",
+                    "guests",
+                    "coffee",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "guests and guests marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_"
+                ]
+            }
+        ]
+    },
+    {
+        "Capability": "Identifying ARG2 in sentences with dative alternations",
+        "Sentences": [
+            {
+                "sentence": "She gave the book to him. She gave him the book.",
+                "sentence_tok": [
+                    "She",
+                    "gave",
+                    "the",
+                    "book",
+                    "to",
+                    "him",
+                    ".",
+                    "She",
+                    "gave",
+                    "him",
+                    "the",
+                    "book",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "book and book marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They sent a package to their friend. They sent their friend a package.",
+                "sentence_tok": [
+                    "They",
+                    "sent",
+                    "a",
+                    "package",
+                    "to",
+                    "their",
+                    "friend",
+                    ".",
+                    "They",
+                    "sent",
+                    "their",
+                    "friend",
+                    "a",
+                    "package",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "package and package marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He showed the painting to his professor. He showed his professor the painting.",
+                "sentence_tok": [
+                    "He",
+                    "showed",
+                    "the",
+                    "painting",
+                    "to",
+                    "his",
+                    "professor",
+                    ".",
+                    "He",
+                    "showed",
+                    "his",
+                    "professor",
+                    "the",
+                    "painting",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "painting and painting marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "I wrote a letter to my sister. I wrote my sister a letter.",
+                "sentence_tok": [
+                    "I",
+                    "wrote",
+                    "a",
+                    "letter",
+                    "to",
+                    "my",
+                    "sister",
+                    ".",
+                    "I",
+                    "wrote",
+                    "my",
+                    "sister",
+                    "a",
+                    "letter",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "letter and letter marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She handed the keys to the officer. She handed the officer the keys.",
+                "sentence_tok": [
+                    "She",
+                    "handed",
+                    "the",
+                    "keys",
+                    "to",
+                    "the",
+                    "officer",
+                    ".",
+                    "She",
+                    "handed",
+                    "the",
+                    "officer",
+                    "the",
+                    "keys",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "keys and keys marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He brought some food to his neighbor. He brought his neighbor some food.",
+                "sentence_tok": [
+                    "He",
+                    "brought",
+                    "some",
+                    "food",
+                    "to",
+                    "his",
+                    "neighbor",
+                    ".",
+                    "He",
+                    "brought",
+                    "his",
+                    "neighbor",
+                    "some",
+                    "food",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "food and food marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They passed the salt to me. They passed me the salt.",
+                "sentence_tok": [
+                    "They",
+                    "passed",
+                    "the",
+                    "salt",
+                    "to",
+                    "me",
+                    ".",
+                    "They",
+                    "passed",
+                    "me",
+                    "the",
+                    "salt",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "salt and salt marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We offered a job to her. We offered her a job.",
+                "sentence_tok": [
+                    "We",
+                    "offered",
+                    "a",
+                    "job",
+                    "to",
+                    "her",
+                    ".",
+                    "We",
+                    "offered",
+                    "her",
+                    "a",
+                    "job",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "job and job marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The teacher assigned homework to the students. The teacher assigned the students homework.",
+                "sentence_tok": [
+                    "The",
+                    "teacher",
+                    "assigned",
+                    "homework",
+                    "to",
+                    "the",
+                    "students",
+                    ".",
+                    "The",
+                    "teacher",
+                    "assigned",
+                    "the",
+                    "students",
+                    "homework",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "homework and homework marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He lent his car to his brother. He lent his brother his car.",
+                "sentence_tok": [
+                    "He",
+                    "lent",
+                    "his",
+                    "car",
+                    "to",
+                    "his",
+                    "brother",
+                    ".",
+                    "He",
+                    "lent",
+                    "his",
+                    "brother",
+                    "his",
+                    "car",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "car and car marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She gave some advice to her colleague. She gave her colleague some advice.",
+                "sentence_tok": [
+                    "She",
+                    "gave",
+                    "some",
+                    "advice",
+                    "to",
+                    "her",
+                    "colleague",
+                    ".",
+                    "She",
+                    "gave",
+                    "her",
+                    "colleague",
+                    "some",
+                    "advice",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "advice and advice marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They sold a bicycle to their cousin. They sold their cousin a bicycle.",
+                "sentence_tok": [
+                    "They",
+                    "sold",
+                    "a",
+                    "bicycle",
+                    "to",
+                    "their",
+                    "cousin",
+                    ".",
+                    "They",
+                    "sold",
+                    "their",
+                    "cousin",
+                    "a",
+                    "bicycle",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "bicycle and bicycle marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He told a story to the children. He told the children a story.",
+                "sentence_tok": [
+                    "He",
+                    "told",
+                    "a",
+                    "story",
+                    "to",
+                    "the",
+                    "children",
+                    ".",
+                    "He",
+                    "told",
+                    "the",
+                    "children",
+                    "a",
+                    "story",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "story and story marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She promised a gift to her son. She promised her son a gift.",
+                "sentence_tok": [
+                    "She",
+                    "promised",
+                    "a",
+                    "gift",
+                    "to",
+                    "her",
+                    "son",
+                    ".",
+                    "She",
+                    "promised",
+                    "her",
+                    "son",
+                    "a",
+                    "gift",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "gift and gift marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We mailed a letter to our friend. We mailed our friend a letter.",
+                "sentence_tok": [
+                    "We",
+                    "mailed",
+                    "a",
+                    "letter",
+                    "to",
+                    "our",
+                    "friend",
+                    ".",
+                    "We",
+                    "mailed",
+                    "our",
+                    "friend",
+                    "a",
+                    "letter",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "letter and letter marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The chef served a meal to the guests. The chef served the guests a meal.",
+                "sentence_tok": [
+                    "The",
+                    "chef",
+                    "served",
+                    "a",
+                    "meal",
+                    "to",
+                    "the",
+                    "guests",
+                    ".",
+                    "The",
+                    "chef",
+                    "served",
+                    "the",
+                    "guests",
+                    "a",
+                    "meal",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "meal and meal marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He threw the ball to his teammate. He threw his teammate the ball.",
+                "sentence_tok": [
+                    "He",
+                    "threw",
+                    "the",
+                    "ball",
+                    "to",
+                    "his",
+                    "teammate",
+                    ".",
+                    "He",
+                    "threw",
+                    "his",
+                    "teammate",
+                    "the",
+                    "ball",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "ball and ball marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They awarded a prize to the winner. They awarded the winner a prize.",
+                "sentence_tok": [
+                    "They",
+                    "awarded",
+                    "a",
+                    "prize",
+                    "to",
+                    "the",
+                    "winner",
+                    ".",
+                    "They",
+                    "awarded",
+                    "the",
+                    "winner",
+                    "a",
+                    "prize",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "prize and prize marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The librarian gave a book to the student. The librarian gave the student a book.",
+                "sentence_tok": [
+                    "The",
+                    "librarian",
+                    "gave",
+                    "a",
+                    "book",
+                    "to",
+                    "the",
+                    "student",
+                    ".",
+                    "The",
+                    "librarian",
+                    "gave",
+                    "the",
+                    "student",
+                    "a",
+                    "book",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "book and book marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She offered some tea to her guest. She offered her guest some tea.",
+                "sentence_tok": [
+                    "She",
+                    "offered",
+                    "some",
+                    "tea",
+                    "to",
+                    "her",
+                    "guest",
+                    ".",
+                    "She",
+                    "offered",
+                    "her",
+                    "guest",
+                    "some",
+                    "tea",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": " marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The company sent a refund to the customer. The company sent the customer a refund.",
+                "sentence_tok": [
+                    "The",
+                    "company",
+                    "sent",
+                    "a",
+                    "refund",
+                    "to",
+                    "the",
+                    "customer",
+                    ".",
+                    "The",
+                    "company",
+                    "sent",
+                    "the",
+                    "customer",
+                    "a",
+                    "refund",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "refund and refund marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He handed a note to the teacher. He handed the teacher a note.",
+                "sentence_tok": [
+                    "He",
+                    "handed",
+                    "a",
+                    "note",
+                    "to",
+                    "the",
+                    "teacher",
+                    ".",
+                    "He",
+                    "handed",
+                    "the",
+                    "teacher",
+                    "a",
+                    "note",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "note and note marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We gave directions to the tourists. We gave the tourists directions.",
+                "sentence_tok": [
+                    "We",
+                    "gave",
+                    "directions",
+                    "to",
+                    "the",
+                    "tourists",
+                    ".",
+                    "We",
+                    "gave",
+                    "the",
+                    "tourists",
+                    "directions",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "directions and directions marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She forwarded the email to her boss. She forwarded her boss the email.",
+                "sentence_tok": [
+                    "She",
+                    "forwarded",
+                    "the",
+                    "email",
+                    "to",
+                    "her",
+                    "boss",
+                    ".",
+                    "She",
+                    "forwarded",
+                    "her",
+                    "boss",
+                    "the",
+                    "email",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "email and email marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They paid the money to the vendor. They paid the vendor the money.",
+                "sentence_tok": [
+                    "They",
+                    "paid",
+                    "the",
+                    "money",
+                    "to",
+                    "the",
+                    "vendor",
+                    ".",
+                    "They",
+                    "paid",
+                    "the",
+                    "vendor",
+                    "the",
+                    "money",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "money and money marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He showed his new phone to his friends. He showed his friends his new phone.",
+                "sentence_tok": [
+                    "He",
+                    "showed",
+                    "his",
+                    "new",
+                    "phone",
+                    "to",
+                    "his",
+                    "friends",
+                    ".",
+                    "He",
+                    "showed",
+                    "his",
+                    "friends",
+                    "his",
+                    "new",
+                    "phone",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "phone and phone marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She taught the lesson to the students. She taught the students the lesson.",
+                "sentence_tok": [
+                    "She",
+                    "taught",
+                    "the",
+                    "lesson",
+                    "to",
+                    "the",
+                    "students",
+                    ".",
+                    "She",
+                    "taught",
+                    "the",
+                    "students",
+                    "the",
+                    "lesson",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "lesson and lesson marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He read a book to the children. He read the children a book.",
+                "sentence_tok": [
+                    "He",
+                    "read",
+                    "a",
+                    "book",
+                    "to",
+                    "the",
+                    "children",
+                    ".",
+                    "He",
+                    "read",
+                    "the",
+                    "children",
+                    "a",
+                    "book",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "book and book marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They delivered a package to the client. They delivered the client a package.",
+                "sentence_tok": [
+                    "They",
+                    "delivered",
+                    "a",
+                    "package",
+                    "to",
+                    "the",
+                    "client",
+                    ".",
+                    "They",
+                    "delivered",
+                    "the",
+                    "client",
+                    "a",
+                    "package",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "package and package marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The host served coffee to the guests. The host served the guests coffee.",
+                "sentence_tok": [
+                    "The",
+                    "host",
+                    "served",
+                    "coffee",
+                    "to",
+                    "the",
+                    "guests",
+                    ".",
+                    "The",
+                    "host",
+                    "served",
+                    "the",
+                    "guests",
+                    "coffee",
+                    "."
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "coffee and coffee marked as ARG2",
+                "gold": [
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "ARG2",
+                    "_"
+                ]
+            }
+        ]
+    },
+    {
+        "Capability": "Handling verbs that don\u2019t assign roles directly and identifying ARG0",
+        "Sentences": [
+            {
+                "sentence": "Mary hopes to visit the museum.",
+                "sentence_tok": [
+                    "Mary",
+                    "hopes",
+                    "to",
+                    "visit",
+                    "the",
+                    "museum"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Mary marked as ARG0 for the embedded verb visit",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "John decided to leave early.",
+                "sentence_tok": [
+                    "John",
+                    "decided",
+                    "to",
+                    "leave",
+                    "early"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "John marked as ARG0 for the embedded verb leave",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They plan to start a business.",
+                "sentence_tok": [
+                    "They",
+                    "plan",
+                    "to",
+                    "start",
+                    "a",
+                    "business"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb start",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She wants to learn Spanish.",
+                "sentence_tok": [
+                    "She",
+                    "wants",
+                    "to",
+                    "learn",
+                    "Spanish"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb learn",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He refused to apologize.",
+                "sentence_tok": [
+                    "He",
+                    "refused",
+                    "to",
+                    "apologize"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb apologize",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We agreed to meet at noon.",
+                "sentence_tok": [
+                    "We",
+                    "agreed",
+                    "to",
+                    "meet",
+                    "at",
+                    "noon"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "We marked as ARG0 for the embedded verb meet",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The teacher expects the students to finish the assignment.",
+                "sentence_tok": [
+                    "The",
+                    "teacher",
+                    "expects",
+                    "the",
+                    "students",
+                    "to",
+                    "finish",
+                    "the",
+                    "assignment"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "teacher marked as ARG0 for the embedded verb finish",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "Sarah promised to call later.",
+                "sentence_tok": [
+                    "Sarah",
+                    "promised",
+                    "to",
+                    "call",
+                    "later"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "Sarah marked as ARG0 for the embedded verb call",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He forgot to lock the door.",
+                "sentence_tok": [
+                    "He",
+                    "forgot",
+                    "to",
+                    "lock",
+                    "the",
+                    "door"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb lock",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "I attempted to fix the computer.",
+                "sentence_tok": [
+                    "I",
+                    "attempted",
+                    "to",
+                    "fix",
+                    "the",
+                    "computer"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "I marked as ARG0 for the embedded verb fix",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She managed to complete the project.",
+                "sentence_tok": [
+                    "She",
+                    "managed",
+                    "to",
+                    "complete",
+                    "the",
+                    "project"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb complete",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They failed to arrive on time.",
+                "sentence_tok": [
+                    "They",
+                    "failed",
+                    "to",
+                    "arrive",
+                    "on",
+                    "time"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb arrive",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The boss ordered him to submit the report.",
+                "sentence_tok": [
+                    "The",
+                    "boss",
+                    "ordered",
+                    "him",
+                    "to",
+                    "submit",
+                    "the",
+                    "report"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "boss marked as ARG0 for the embedded verb submit",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He pretended to be asleep.",
+                "sentence_tok": [
+                    "He",
+                    "pretended",
+                    "to",
+                    "be",
+                    "asleep"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb be",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She remembered to bring her keys.",
+                "sentence_tok": [
+                    "She",
+                    "remembered",
+                    "to",
+                    "bring",
+                    "her",
+                    "keys"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb bring",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We needed to buy groceries.",
+                "sentence_tok": [
+                    "We",
+                    "needed",
+                    "to",
+                    "buy",
+                    "groceries"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "We marked as ARG0 for the embedded verb buy",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The athlete tried to beat his record.",
+                "sentence_tok": [
+                    "The",
+                    "athlete",
+                    "tried",
+                    "to",
+                    "beat",
+                    "his",
+                    "record"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "athlete marked as ARG0 for the embedded verb beat",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The child begged to stay up late.",
+                "sentence_tok": [
+                    "The",
+                    "child",
+                    "begged",
+                    "to",
+                    "stay",
+                    "up",
+                    "late"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "child marked as ARG0 for the embedded verb stay",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She decided to change her major.",
+                "sentence_tok": [
+                    "She",
+                    "decided",
+                    "to",
+                    "change",
+                    "her",
+                    "major"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb change",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They threatened to cancel the event.",
+                "sentence_tok": [
+                    "They",
+                    "threatened",
+                    "to",
+                    "cancel",
+                    "the",
+                    "event"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb cancel",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He promised to help with the move.",
+                "sentence_tok": [
+                    "He",
+                    "promised",
+                    "to",
+                    "help",
+                    "with",
+                    "the",
+                    "move"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb help",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The scientist hoped to discover a cure.",
+                "sentence_tok": [
+                    "The",
+                    "scientist",
+                    "hoped",
+                    "to",
+                    "discover",
+                    "a",
+                    "cure"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "scientist marked as ARG0 for the embedded verb discover",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She hesitated to answer the question.",
+                "sentence_tok": [
+                    "She",
+                    "hesitated",
+                    "to",
+                    "answer",
+                    "the",
+                    "question"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb answer",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He volunteered to lead the project.",
+                "sentence_tok": [
+                    "He",
+                    "volunteered",
+                    "to",
+                    "lead",
+                    "the",
+                    "project"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb lead",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The students prepared to take the test.",
+                "sentence_tok": [
+                    "The",
+                    "students",
+                    "prepared",
+                    "to",
+                    "take",
+                    "the",
+                    "test"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "students marked as ARG0 for the embedded verb take",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She struggled to find a solution.",
+                "sentence_tok": [
+                    "She",
+                    "struggled",
+                    "to",
+                    "find",
+                    "a",
+                    "solution"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb find",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The musician offered to play another song.",
+                "sentence_tok": [
+                    "The",
+                    "musician",
+                    "offered",
+                    "to",
+                    "play",
+                    "another",
+                    "song"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "musician marked as ARG0 for the embedded verb play",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He demanded to see the manager.",
+                "sentence_tok": [
+                    "He",
+                    "demanded",
+                    "to",
+                    "see",
+                    "the",
+                    "manager"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb see",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They wished to travel abroad.",
+                "sentence_tok": [
+                    "They",
+                    "wished",
+                    "to",
+                    "travel",
+                    "abroad"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb travel",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She dared to question the professor.",
+                "sentence_tok": [
+                    "She",
+                    "dared",
+                    "to",
+                    "question",
+                    "the",
+                    "professor"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb question",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            }
+        ]
+    },
+    {
+        "Capability": "Detecting ARG1 in passive constructions with implied arguments",
+        "Sentences": [
+            {
+                "sentence": "The book was written in 1985.",
+                "sentence_tok": [
+                    "The",
+                    "book",
+                    "was",
+                    "written",
+                    "in",
+                    "1985"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "book marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A new policy was introduced last week.",
+                "sentence_tok": [
+                    "A",
+                    "new",
+                    "policy",
+                    "was",
+                    "introduced",
+                    "last",
+                    "week"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "policy marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The cake was baked this morning.",
+                "sentence_tok": [
+                    "The",
+                    "cake",
+                    "was",
+                    "baked",
+                    "this",
+                    "morning"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "cake marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The project was completed on time.",
+                "sentence_tok": [
+                    "The",
+                    "project",
+                    "was",
+                    "completed",
+                    "on",
+                    "time"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "project marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A mistake was discovered in the report.",
+                "sentence_tok": [
+                    "A",
+                    "mistake",
+                    "was",
+                    "discovered",
+                    "in",
+                    "the",
+                    "report"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "mistake marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The experiment was conducted carefully.",
+                "sentence_tok": [
+                    "The",
+                    "experiment",
+                    "was",
+                    "conducted",
+                    "carefully"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "experiment marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The house was sold for a high price.",
+                "sentence_tok": [
+                    "The",
+                    "house",
+                    "was",
+                    "sold",
+                    "for",
+                    "a",
+                    "high",
+                    "price"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "house marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The message was delivered yesterday.",
+                "sentence_tok": [
+                    "The",
+                    "message",
+                    "was",
+                    "delivered",
+                    "yesterday"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "message marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The artwork was stolen from the gallery.",
+                "sentence_tok": [
+                    "The",
+                    "artwork",
+                    "was",
+                    "stolen",
+                    "from",
+                    "the",
+                    "gallery"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "artwork marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The bridge was repaired last month.",
+                "sentence_tok": [
+                    "The",
+                    "bridge",
+                    "was",
+                    "repaired",
+                    "last",
+                    "month"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "bridge marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The results were published in a journal.",
+                "sentence_tok": [
+                    "The",
+                    "results",
+                    "were",
+                    "published",
+                    "in",
+                    "a",
+                    "journal"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "results marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The package was shipped this morning.",
+                "sentence_tok": [
+                    "The",
+                    "package",
+                    "was",
+                    "shipped",
+                    "this",
+                    "morning"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "package marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The documents were signed at the office.",
+                "sentence_tok": [
+                    "The",
+                    "documents",
+                    "were",
+                    "signed",
+                    "at",
+                    "the",
+                    "office"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "documents marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The invitation was sent last night.",
+                "sentence_tok": [
+                    "The",
+                    "invitation",
+                    "was",
+                    "sent",
+                    "last",
+                    "night"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "invitation marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The problem was solved efficiently.",
+                "sentence_tok": [
+                    "The",
+                    "problem",
+                    "was",
+                    "solved",
+                    "efficiently"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "problem marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The road was blocked due to an accident.",
+                "sentence_tok": [
+                    "The",
+                    "road",
+                    "was",
+                    "blocked",
+                    "due",
+                    "to",
+                    "an",
+                    "accident"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "road marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A new stadium was built in the city.",
+                "sentence_tok": [
+                    "A",
+                    "new",
+                    "stadium",
+                    "was",
+                    "built",
+                    "in",
+                    "the",
+                    "city"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "stadium marked as ARG1",
+                "gold": [
+                    "_",
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The flowers were planted in the garden.",
+                "sentence_tok": [
+                    "The",
+                    "flowers",
+                    "were",
+                    "planted",
+                    "in",
+                    "the",
+                    "garden"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "flowers marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The window was broken during the storm.",
+                "sentence_tok": [
+                    "The",
+                    "window",
+                    "was",
+                    "broken",
+                    "during",
+                    "the",
+                    "storm"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "window marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A decision was reached after the meeting.",
+                "sentence_tok": [
+                    "A",
+                    "decision",
+                    "was",
+                    "reached",
+                    "after",
+                    "the",
+                    "meeting"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "decision marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The report was submitted to the committee.",
+                "sentence_tok": [
+                    "The",
+                    "report",
+                    "was",
+                    "submitted",
+                    "to",
+                    "the",
+                    "committee"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "report marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The movie was released worldwide.",
+                "sentence_tok": [
+                    "The",
+                    "movie",
+                    "was",
+                    "released",
+                    "worldwide"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "movie marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The homework was completed before the deadline.",
+                "sentence_tok": [
+                    "The",
+                    "homework",
+                    "was",
+                    "completed",
+                    "before",
+                    "the",
+                    "deadline"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "homework marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The error was corrected in the final version.",
+                "sentence_tok": [
+                    "The",
+                    "error",
+                    "was",
+                    "corrected",
+                    "in",
+                    "the",
+                    "final",
+                    "version"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "error marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "A complaint was filed against the company.",
+                "sentence_tok": [
+                    "A",
+                    "complaint",
+                    "was",
+                    "filed",
+                    "against",
+                    "the",
+                    "company"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "complaint marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The room was cleaned thoroughly.",
+                "sentence_tok": [
+                    "The",
+                    "room",
+                    "was",
+                    "cleaned",
+                    "thoroughly"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "room marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The painting was restored carefully.",
+                "sentence_tok": [
+                    "The",
+                    "painting",
+                    "was",
+                    "restored",
+                    "carefully"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "painting marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The contract was signed in a hurry.",
+                "sentence_tok": [
+                    "The",
+                    "contract",
+                    "was",
+                    "signed",
+                    "in",
+                    "a",
+                    "hurry"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "contract marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The test was taken yesterday.",
+                "sentence_tok": [
+                    "The",
+                    "test",
+                    "was",
+                    "taken",
+                    "yesterday"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "test marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The car was washed this morning.",
+                "sentence_tok": [
+                    "The",
+                    "car",
+                    "was",
+                    "washed",
+                    "this",
+                    "morning"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "car marked as ARG1",
+                "gold": [
+                    "_",
+                    "ARG1",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            }
+        ]
+    }
+]

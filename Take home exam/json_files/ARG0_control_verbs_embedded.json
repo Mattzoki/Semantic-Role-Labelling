@@ -1,0 +1,856 @@
+[
+    {
+        "Capability": "Handling verbs that don\u2019t assign roles directly and identifying ARG0",
+        "Sentences": [
+            {
+                "sentence": "Mary hopes to visit the museum.",
+                "sentence_tok": [
+                    "Mary",
+                    "hopes",
+                    "to",
+                    "visit",
+                    "the",
+                    "museum"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "Mary marked as ARG0 for the embedded verb visit",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "John decided to leave early.",
+                "sentence_tok": [
+                    "John",
+                    "decided",
+                    "to",
+                    "leave",
+                    "early"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "John marked as ARG0 for the embedded verb leave",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They plan to start a business.",
+                "sentence_tok": [
+                    "They",
+                    "plan",
+                    "to",
+                    "start",
+                    "a",
+                    "business"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb start",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She wants to learn Spanish.",
+                "sentence_tok": [
+                    "She",
+                    "wants",
+                    "to",
+                    "learn",
+                    "Spanish"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb learn",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He refused to apologize.",
+                "sentence_tok": [
+                    "He",
+                    "refused",
+                    "to",
+                    "apologize"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb apologize",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We agreed to meet at noon.",
+                "sentence_tok": [
+                    "We",
+                    "agreed",
+                    "to",
+                    "meet",
+                    "at",
+                    "noon"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "We marked as ARG0 for the embedded verb meet",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The teacher expects the students to finish the assignment.",
+                "sentence_tok": [
+                    "The",
+                    "teacher",
+                    "expects",
+                    "the",
+                    "students",
+                    "to",
+                    "finish",
+                    "the",
+                    "assignment"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "teacher marked as ARG0 for the embedded verb finish",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "Sarah promised to call later.",
+                "sentence_tok": [
+                    "Sarah",
+                    "promised",
+                    "to",
+                    "call",
+                    "later"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "Sarah marked as ARG0 for the embedded verb call",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He forgot to lock the door.",
+                "sentence_tok": [
+                    "He",
+                    "forgot",
+                    "to",
+                    "lock",
+                    "the",
+                    "door"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb lock",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "I attempted to fix the computer.",
+                "sentence_tok": [
+                    "I",
+                    "attempted",
+                    "to",
+                    "fix",
+                    "the",
+                    "computer"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "I marked as ARG0 for the embedded verb fix",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She managed to complete the project.",
+                "sentence_tok": [
+                    "She",
+                    "managed",
+                    "to",
+                    "complete",
+                    "the",
+                    "project"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb complete",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They failed to arrive on time.",
+                "sentence_tok": [
+                    "They",
+                    "failed",
+                    "to",
+                    "arrive",
+                    "on",
+                    "time"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb arrive",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The boss ordered him to submit the report.",
+                "sentence_tok": [
+                    "The",
+                    "boss",
+                    "ordered",
+                    "him",
+                    "to",
+                    "submit",
+                    "the",
+                    "report"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "boss marked as ARG0 for the embedded verb submit",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He pretended to be asleep.",
+                "sentence_tok": [
+                    "He",
+                    "pretended",
+                    "to",
+                    "be",
+                    "asleep"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb be",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She remembered to bring her keys.",
+                "sentence_tok": [
+                    "She",
+                    "remembered",
+                    "to",
+                    "bring",
+                    "her",
+                    "keys"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb bring",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "We needed to buy groceries.",
+                "sentence_tok": [
+                    "We",
+                    "needed",
+                    "to",
+                    "buy",
+                    "groceries"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "We marked as ARG0 for the embedded verb buy",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The athlete tried to beat his record.",
+                "sentence_tok": [
+                    "The",
+                    "athlete",
+                    "tried",
+                    "to",
+                    "beat",
+                    "his",
+                    "record"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "athlete marked as ARG0 for the embedded verb beat",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The child begged to stay up late.",
+                "sentence_tok": [
+                    "The",
+                    "child",
+                    "begged",
+                    "to",
+                    "stay",
+                    "up",
+                    "late"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "child marked as ARG0 for the embedded verb stay",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She decided to change her major.",
+                "sentence_tok": [
+                    "She",
+                    "decided",
+                    "to",
+                    "change",
+                    "her",
+                    "major"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb change",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They threatened to cancel the event.",
+                "sentence_tok": [
+                    "They",
+                    "threatened",
+                    "to",
+                    "cancel",
+                    "the",
+                    "event"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb cancel",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He promised to help with the move.",
+                "sentence_tok": [
+                    "He",
+                    "promised",
+                    "to",
+                    "help",
+                    "with",
+                    "the",
+                    "move"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb help",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The scientist hoped to discover a cure.",
+                "sentence_tok": [
+                    "The",
+                    "scientist",
+                    "hoped",
+                    "to",
+                    "discover",
+                    "a",
+                    "cure"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "scientist marked as ARG0 for the embedded verb discover",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She hesitated to answer the question.",
+                "sentence_tok": [
+                    "She",
+                    "hesitated",
+                    "to",
+                    "answer",
+                    "the",
+                    "question"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb answer",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He volunteered to lead the project.",
+                "sentence_tok": [
+                    "He",
+                    "volunteered",
+                    "to",
+                    "lead",
+                    "the",
+                    "project"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb lead",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The students prepared to take the test.",
+                "sentence_tok": [
+                    "The",
+                    "students",
+                    "prepared",
+                    "to",
+                    "take",
+                    "the",
+                    "test"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "students marked as ARG0 for the embedded verb take",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She struggled to find a solution.",
+                "sentence_tok": [
+                    "She",
+                    "struggled",
+                    "to",
+                    "find",
+                    "a",
+                    "solution"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb find",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "The musician offered to play another song.",
+                "sentence_tok": [
+                    "The",
+                    "musician",
+                    "offered",
+                    "to",
+                    "play",
+                    "another",
+                    "song"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "musician marked as ARG0 for the embedded verb play",
+                "gold": [
+                    "_",
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "He demanded to see the manager.",
+                "sentence_tok": [
+                    "He",
+                    "demanded",
+                    "to",
+                    "see",
+                    "the",
+                    "manager"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "He marked as ARG0 for the embedded verb see",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "They wished to travel abroad.",
+                "sentence_tok": [
+                    "They",
+                    "wished",
+                    "to",
+                    "travel",
+                    "abroad"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "expected_result": "They marked as ARG0 for the embedded verb travel",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            },
+            {
+                "sentence": "She dared to question the professor.",
+                "sentence_tok": [
+                    "She",
+                    "dared",
+                    "to",
+                    "question",
+                    "the",
+                    "professor"
+                ],
+                "predicate": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "expected_result": "She marked as ARG0 for the embedded verb question",
+                "gold": [
+                    "ARG0",
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
+                ]
+            }
+        ]
+    }
+]

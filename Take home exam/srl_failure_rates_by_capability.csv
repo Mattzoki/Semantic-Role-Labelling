@@ -1,0 +1,6 @@
+Capability,LogReg Failure Rate,BERT Failure Rate
+Detecting ARG1 in passive constructions with implied arguments,0.7333333333333333,0.0
+Handling verbs that don’t assign roles directly and identifying ARG0,0.6666666666666666,0.2
+Identifying ARG0 in clefted sentences,0.9666666666666667,0.03333333333333333
+Identifying ARG1 in sentences with dative alternations,1.0,1.0
+Identifying ARG2 in sentences with dative alternations,0.9827586206896551,1.0
